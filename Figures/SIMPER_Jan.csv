@@ -1,0 +1,20 @@
+"","Species","Contribution","SD","P_value","Cumulative_Contribution","Rank"
+"Bare Ground","Bare Ground",0.163314539512251,0.145828167140759,0.01,0.507913342079013,1
+"Richardia spp.","Richardia spp.",0.0532560786427723,0.0565524850698428,0.01,1,2
+"Oenothera laciniata","Oenothera laciniata",0.0437704845904205,0.0620280862671067,0.01,0.995209431112903,3
+"Gamochaeta spp.","Gamochaeta spp.",0.0145522637625125,0.0178837073741658,0.15,0.895523649332424,4
+"Linaria canadensis","Linaria canadensis",0.0130534549210899,0.0190417830052909,0.01,0.990583953974687,5
+"Sinapis arvensis","Sinapis arvensis",0.0100395091745573,0.0384161171478266,0.05,1,6
+"Cyperus spp.","Cyperus spp.",0.00903778276955248,0.00916233629618967,0.01,0.809668998062813,7
+"Triodanis perfoliata","Triodanis perfoliata",0.00643169575929541,0.0157974955532252,0.1,1,8
+"Cynodon dactylon","Cynodon dactylon",0.00300197149673927,0.0113759242151499,0.47,0.673541417633449,9
+"Paspalum notatum","Paspalum notatum",0.00205474678229559,0.0022096394437263,1,0.999973048953161,10
+"Erigeron canadensis","Erigeron canadensis",0.00148727667944298,0.00386172128111077,0.86,0.854926994959522,11
+"Portulaca spp.","Portulaca spp.",0.000867264874644839,0.00180422318369409,0.01,1,12
+"Rumex hastatulus","Rumex hastatulus",0.000664429588843339,0.0029203883379786,0.44,1,13
+"Lepidium virginicum","Lepidium virginicum",8.66584403118158e-06,6.66425355211653e-05,0.11,0.984193627011524,14
+"Geranium carolinianum","Geranium carolinianum",0,0,NA,0.92674683786733,15
+"Indigofera hirsuta","Indigofera hirsuta",0,0,NA,0.954854625852264,16
+"Lactuca spp.","Lactuca spp.",0,0,NA,0.974857401466091,17
+"Oxalis corniculata","Oxalis corniculata",0,0,NA,0.997906652084558,18
+"Sonchus asper","Sonchus asper",0,0,NA,1,19

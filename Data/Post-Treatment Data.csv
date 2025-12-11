@@ -1,0 +1,887 @@
+Month,Block,Plot,ID,Treatment,Species,Common Name,0m,3m,6m,9m,12m,15m,18m,21m,24m,27m
+April,1,1,1-1,Soil Inversion,Bare Ground,Bare Ground,8,8,8,7,7,6,7,7,7,5
+April,1,1,1-1,Soil Inversion,Cynodon dactylon,Bermudagrass,,2,2,,,,2,2,2,
+April,1,1,1-1,Soil Inversion,Cyperus spp.,Nutsedge/Globesedge,4,4,3,4,4,4,5,4,5,4
+April,1,1,1-1,Soil Inversion,Erigeron canadensis,Butterweed horseweed,4,5,5,,,,,,,
+April,1,1,1-1,Soil Inversion,Gamochaeta spp.,Cudweed,,,,,,,,,,
+April,1,1,1-1,Soil Inversion,Indigofera hirsuta,Hairy Indigo,,,2,2,2,1,1,2,2,3
+April,1,1,1-1,Soil Inversion,Lactuca spp.,Wild Lettuce,,,,,3,,,,,
+April,1,1,1-1,Soil Inversion,Lepidium virginicum,Virginia pepperweed,,,,3,1,,2,3,2,2
+April,1,1,1-1,Soil Inversion,Linaria canadensis,Toadflax,1,1,1,,1,1,1,1,1,1
+April,1,1,1-1,Soil Inversion,Oenothera laciniata,Evening Primrose,5,5,5,6,5,5,6,8,8,7
+April,1,1,1-1,Soil Inversion,Oxalis corniculata,Creeping Woodsorrel,,,,,,,,,,
+April,1,1,1-1,Soil Inversion,Paspalum notatum,Bahiagrass,2,2,3,1,,2,4,3,,2
+April,1,1,1-1,Soil Inversion,Paspalum setaceum,Bull Paspalum,,,,,,,,,,
+April,1,1,1-1,Soil Inversion,Phyllanthus urinaria,Chamber bitter,,,,,,,,,,
+April,1,1,1-1,Soil Inversion,Portulaca spp.,Purslane,,2,,,,,,,,
+April,1,1,1-1,Soil Inversion,Richardia spp.,Pusley,7,5,6,7,5,5,5,6,5,6
+April,1,1,1-1,Soil Inversion,Rumex hastatulus,Heartwing sorrel,,,,,,,,3,,
+April,1,1,1-1,Soil Inversion,Sinapis arvensis,Wild Mustard,6,,,3,5,4,,,,
+April,1,1,1-1,Soil Inversion,Sonchus asper,Bull Thistle,,,,,,,,,,
+April,1,2,1-2,Control,Bare Ground,Bare Ground,6,7,6,6,7,8,7,7,8,7
+April,1,2,1-2,Control,Cynodon dactylon,Bermudagrass,3,2,4,5,3,,,,,
+April,1,2,1-2,Control,Cyperus spp.,Nutsedge/Globesedge,1,,2,,2,2,,,,
+April,1,2,1-2,Control,Erigeron canadensis,Butterweed horseweed,2,,,2,5,5,4,4,6,
+April,1,2,1-2,Control,Gamochaeta spp.,Cudweed,,,,,3,2,,2,,5
+April,1,2,1-2,Control,Indigofera hirsuta,Hairy Indigo,,,,,,,,,,
+April,1,2,1-2,Control,Lactuca spp.,Wild Lettuce,2,,2,4,3,,,,,2
+April,1,2,1-2,Control,Linaria canadensis,Toadflax,1,1,1,1,2,2,,,,1
+April,1,2,1-2,Control,Oenothera laciniata,Evening Primrose,7,7,8,7,,3,6,4,,7
+April,1,2,1-2,Control,Oxalis corniculata,Creeping Woodsorrel,2,3,2,2,,,,,,
+April,1,2,1-2,Control,Paspalum notatum,Bahiagrass,,,,,5,5,5,5,5,6
+April,1,2,1-2,Control,Paspalum setaceum,Bull Paspalum,,,,,,,,,,
+April,1,2,1-2,Control,Phyllanthus urinaria,Chamber bitter,,,,,,,,,,
+April,1,2,1-2,Control,Richardia spp.,Pusley,4,4,5,5,3,4,5,5,2,3
+April,1,2,1-2,Control,Rumex hastatulus,Heartwing sorrel,3,1,,,,,,,,
+April,1,2,1-2,Control,Sonchus asper,Bull Thistle,,,,,,,,,,
+April,1,3,1-3,Soil Inversion,Bare Ground,Bare Ground,9,9,8,8,8,8,7,7,5,6
+April,1,3,1-3,Soil Inversion,Cynodon dactylon,Bermudagrass,4,2,3,2,4,4,4,1,2,2
+April,1,3,1-3,Soil Inversion,Cyperus spp.,Nutsedge/Globesedge,3,3,4,4,4,4,4,4,5,4
+April,1,3,1-3,Soil Inversion,Erigeron canadensis,Butterweed horseweed,3,4,4,3,2,2,2,2,3,2
+April,1,3,1-3,Soil Inversion,Gamochaeta spp.,Cudweed,2,3,4,4,2,1,2,2,3,2
+April,1,3,1-3,Soil Inversion,Indigofera hirsuta,Hairy Indigo,,,,,,,,,2,
+April,1,3,1-3,Soil Inversion,Linaria canadensis,Toadflax,,,,,,,,,,
+April,1,3,1-3,Soil Inversion,Oenothera laciniata,Evening Primrose,2,2,2,,,1,1,6,,
+April,1,3,1-3,Soil Inversion,Paspalum notatum,Bahiagrass,,,3,3,4,3,4,4,3,4
+April,1,3,1-3,Soil Inversion,Richardia spp.,Pusley,2,2,3,,2,,2,3,,2
+April,1,3,1-3,Soil Inversion,Rumex hastatulus,Heartwing sorrel,2,2,,,,,,,,
+April,1,3,1-3,Soil Inversion,Sonchus asper,Bull Thistle,,,,,,,,,,2
+April,1,4,1-4,Control,Bare Ground,Bare Ground,7,7,8,7,7,7,8,8,7,8
+April,1,4,1-4,Control,Cynodon dactylon,Bermudagrass,,2,3,2,,,3,,,
+April,1,4,1-4,Control,Cyperus spp.,Nutsedge/Globesedge,2,,,,,,,1,,
+April,1,4,1-4,Control,Erigeron canadensis,Butterweed horseweed,3,3,3,2,3,5,3,4,3,4
+April,1,4,1-4,Control,Gamochaeta spp.,Cudweed,1,1,1,1,1,1,1,1,1,2
+April,1,4,1-4,Control,Indigofera hirsuta,Hairy Indigo,5,1,4,4,,,2,4,3,2
+April,1,4,1-4,Control,Lactuca spp.,Wild Lettuce,4,4,5,6,2,,2,,,
+April,1,4,1-4,Control,Linaria canadensis,Toadflax,1,1,1,1,1,1,1,1,1,1
+April,1,4,1-4,Control,Oenothera laciniata,Evening Primrose,7,8,6,4,2,7,7,6,7,
+April,1,4,1-4,Control,Oxalis corniculata,Creeping Woodsorrel,4,4,4,4,,,,,,
+April,1,4,1-4,Control,Paspalum notatum,Bahiagrass,5,,,5,,5,,5,,5
+April,1,4,1-4,Control,Paspalum setaceum,Bull Paspalum,,,,,,,,,,
+April,1,4,1-4,Control,Phyllanthus urinaria,Chamber bitter,,,,,,,,,,
+April,1,4,1-4,Control,Richardia spp.,Pusley,2,2,4,5,6,4,4,4,3,4
+April,1,4,1-4,Control,Rumex hastatulus,Heartwing sorrel,3,,,,6,2,2,3,2,
+April,1,4,1-4,Control,Sinapis arvensis,Wild Mustard,,,4,,,,,,,
+April,1,4,1-4,Control,Sonchus asper,Bull Thistle,,,,,,,,2,2,
+April,1,4,1-4,Control,Taraxacum officinale,Dandelion,,,,,1,,,,2,
+April,1,5,1-5,Preemergent,Bare Ground,Bare Ground,7,9,9,8,7,9,9,9,9,8
+April,1,5,1-5,Preemergent,Cynodon dactylon,Bermudagrass,2,4,4,2,,,,4,,
+April,1,5,1-5,Preemergent,Cyperus spp.,Nutsedge/Globesedge,,,,,,,,,,
+April,1,5,1-5,Preemergent,Erigeron canadensis,Butterweed Horseweed,,5,3,1,4,5,5,5,3,3
+April,1,5,1-5,Preemergent,Gamochaeta spp.,Cudweed,1,2,2,,2,,2,3,3,
+April,1,5,1-5,Preemergent,Indigofera hirsuta,Hairy Indigo,2,2,1,,,,2,,,1
+April,1,5,1-5,Preemergent,Lactuca spp.,Wild Lettuce,,,3,,,,,,4,
+April,1,5,1-5,Preemergent,Linaria canadensis,Toadflax,,,,,,,,,,
+April,1,5,1-5,Preemergent,Oenothera laciniata,Evening Primrose,3,,,,,,,,,
+April,1,5,1-5,Preemergent,Oxalis corniculata,Creeping Woodsorrel,,,,,,,,,,
+April,1,5,1-5,Preemergent,Paspalum notatum,Bahiagrass,2,2,1,,,,,,,
+April,1,5,1-5,Preemergent,Paspalum setaceum,Bull Paspalum,,,,,,,,,,
+April,1,5,1-5,Preemergent,Phyllanthus urinaria,Chamber Bitter,,,,,,,,,,
+April,1,5,1-5,Preemergent,Richardia spp.,Pusley,,,,1,2,2,1,4,4,
+April,1,5,1-5,Preemergent,Rumex hastatulus,Heartwing Sorrel,,,,,,,,,,
+April,1,5,1-5,Preemergent,Sonchus asper,Bull Thistle,,,,,,,,,,
+April,1,6,1-6,Fill Sand,Bare Ground,Bare Ground,9,9,8,9,9,9,9,9,9,9
+April,1,6,1-6,Fill Sand,Cynodon dactylon,Bermudagrass,,6,4,4,,2,,,,
+April,1,6,1-6,Fill Sand,Cyperus spp.,Nutsedge/Globesedge,,,,,4,,2,2,4,
+April,1,6,1-6,Fill Sand,Erigeron canadensis,Butterweed horseweed,,6,6,,,,,,5,5
+April,1,6,1-6,Fill Sand,Gamochaeta spp.,Cudweed,,,,,,,,,,
+April,1,6,1-6,Fill Sand,Indigofera hirsuta,Hairy Indigo,,,,,,,,,,
+April,1,6,1-6,Fill Sand,Lactuca spp.,Wild Lettuce,,,,,,,,,,
+April,1,6,1-6,Fill Sand,Linaria canadensis,Toadflax,,3,2,2,2,1,1,1,2,
+April,1,6,1-6,Fill Sand,Oenothera laciniata,Evening Primrose,,,3,3,,6,,,5,5
+April,1,6,1-6,Fill Sand,Oxalis corniculata,Creeping Woodsorrel,,2,2,,,2,,,2,2
+April,1,6,1-6,Fill Sand,Paspalum notatum,Bahiagrass,4,2,4,4,5,5,5,6,4,4
+April,1,6,1-6,Fill Sand,Paspalum setaceum,Bull Paspalum,,,,,,,,,,
+April,1,6,1-6,Fill Sand,Phyllanthus urinaria,Chamber bitter,,,,,,,,,,
+April,1,6,1-6,Fill Sand,Richardia spp.,Pusley,3,,4,,6,,,3,,
+April,1,6,1-6,Fill Sand,Rumex hastatulus,Heartwing sorrel,,,4,,,,,,,
+April,1,6,1-6,Fill Sand,Sonchus asper,Bull Thistle,,,,,,,,,,
+April,1,7,1-7,Fill Sand,Bare Ground,Bare Ground,8,9,9,9,9,8,8,8,8,9
+April,1,7,1-7,Fill Sand,Cynodon dactylon,Bermudagrass,,,,,,,,,2,
+April,1,7,1-7,Fill Sand,Cyperus spp.,Nutsedge/Globesedge,3,2,,,2,1,2,1,,
+April,1,7,1-7,Fill Sand,Erigeron canadensis,Butterweed horseweed,5,3,5,,,,6,4,4,
+April,1,7,1-7,Fill Sand,Gamochaeta spp.,Cudweed,,,,,,,,,,
+April,1,7,1-7,Fill Sand,Indigofera hirsuta,Hairy Indigo,,,,,,,,,,
+April,1,7,1-7,Fill Sand,Lactuca spp.,Wild Lettuce,,,2,5,,,,,,
+April,1,7,1-7,Fill Sand,Linaria canadensis,Toadflax,,,,,,,,,,
+April,1,7,1-7,Fill Sand,Oenothera laciniata,Evening Primrose,2,,,,,3,,,,
+April,1,7,1-7,Fill Sand,Oxalis corniculata,Creeping Woodsorrel,3,,,,,,,,,
+April,1,7,1-7,Fill Sand,Paspalum notatum,Bahiagrass,5,6,5,5,5,5,6,5,5,6
+April,1,7,1-7,Fill Sand,Paspalum setaceum,Bull Paspalum,,,,,,,,,,
+April,1,7,1-7,Fill Sand,Phyllanthus urinaria,Chamber bitter,,,,,,,,,,
+April,1,7,1-7,Fill Sand,Richardia spp.,Pusley,3,,,2,2,5,2,5,5,4
+April,1,7,1-7,Fill Sand,Rumex hastatulus,Heartwing sorrel,,,,,,,,,,
+April,1,7,1-7,Fill Sand,Sonchus asper,Bull Thistle,,,,,,,,,,
+April,1,8,1-8,Fill Sand,Bare Ground,Bare Ground,9,8,8,9,9,8,9,9,8,9
+April,1,8,1-8,Fill Sand,Cynodon dactylon,Bermudagrass,,1,,,5,6,,,2,1
+April,1,8,1-8,Fill Sand,Cyperus spp.,Nutsedge/Globesedge,,,2,,,,2,,,
+April,1,8,1-8,Fill Sand,Erigeron canadensis,Butterweed horseweed,,,,,,,,,,
+April,1,8,1-8,Fill Sand,Gamochaeta spp.,Cudweed,,,,,1,,,,,
+April,1,8,1-8,Fill Sand,Indigofera hirsuta,Hairy Indigo,,,,,,,,,,
+April,1,8,1-8,Fill Sand,Lactuca spp.,Wild Lettuce,,,,,,,,,,
+April,1,8,1-8,Fill Sand,Linaria canadensis,Toadflax,1,1,1,1,2,1,5,1,1,
+April,1,8,1-8,Fill Sand,Oenothera laciniata,Evening Primrose,,4,6,6,4,5,,6,,6
+April,1,8,1-8,Fill Sand,Oxalis corniculata,Creeping Woodsorrel,,,,,,,,,,
+April,1,8,1-8,Fill Sand,Paspalum notatum,Bahiagrass,5,6,4,5,3,3,5,4,5,3
+April,1,8,1-8,Fill Sand,Paspalum setaceum,Bull Paspalum,,,,,,,,,,
+April,1,8,1-8,Fill Sand,Phyllanthus urinaria,Chamber bitter,,,,,,,,,,
+April,1,8,1-8,Fill Sand,Richardia spp.,Pusley,3,3,4,,3,,2,,6,
+April,1,8,1-8,Fill Sand,Rumex hastatulus,Heartwing sorrel,,,,,,,,,,
+April,1,8,1-8,Fill Sand,Sonchus asper,Bull Thistle,,,,,,,,,,
+April,1,9,1-9,Control,Bare Ground,Bare Ground,8,6,7,7,7,7,6,7,8,7
+April,1,9,1-9,Control,Cynodon dactylon,Bermudagrass,,,,2,2,2,4,,4,
+April,1,9,1-9,Control,Cyperus spp.,Nutsedge/Globesedge,,,,,,,,2,,
+April,1,9,1-9,Control,Erigeron canadensis,Butterweed horseweed,1,2,2,2,2,,1,,1,2
+April,1,9,1-9,Control,Gamochaeta spp.,Cudweed,,,,,,,,,,
+April,1,9,1-9,Control,Geranium carolinianum,Carolina Cranesbill,,,,,,,,,2,
+April,1,9,1-9,Control,Indigofera hirsuta,Hairy Indigo,,,,,5,5,2,2,,
+April,1,9,1-9,Control,Lactuca spp.,Wild Lettuce,,,,,5,,3,3,2,2
+April,1,9,1-9,Control,Linaria canadensis,Toadflax,,,,,,2,,,1,
+April,1,9,1-9,Control,Oenothera laciniata,Evening Primrose,7,7,4,6,5,5,6,8,6,7
+April,1,9,1-9,Control,Oxalis corniculata,Creeping Woodsorrel,,,,,,,,,,
+April,1,9,1-9,Control,Paspalum notatum,Bahiagrass,5,5,,,5,5,3,3,3,
+April,1,9,1-9,Control,Paspalum setaceum,Bull Paspalum,,,,,,,,,,
+April,1,9,1-9,Control,Phyllanthus urinaria,Chamber bitter,,,,,,,,,,
+April,1,9,1-9,Control,Richardia spp.,Pusley,2,4,2,2,4,5,,,4,3
+April,1,9,1-9,Control,Rumex hastatulus,Heartwing sorrel,1,,,,,,,,,
+April,1,9,1-9,Control,Sonchus asper,Bull Thistle,,,,,,,,,,
+April,1,10,1-10,Preemergent,Bare Ground,Bare Ground,8,8,8,8,8,8,9,8,9,9
+April,1,10,1-10,Preemergent,Cynodon dactylon,Bermudagrass,4,3,,,,,,6,,
+April,1,10,1-10,Preemergent,Cyperus spp.,Nutsedge/Globesedge,2,,2,1,2,2,2,,2,
+April,1,10,1-10,Preemergent,Erigeron canadensis,Butterweed Horseweed,4,,5,5,5,4,5,4,,6
+April,1,10,1-10,Preemergent,Gamochaeta spp.,Cudweed,3,3,4,4,3,,2,,3,
+April,1,10,1-10,Preemergent,Indigofera hirsuta,Hairy Indigo,3,2,,2,,,,,,2
+April,1,10,1-10,Preemergent,Lactuca spp.,Wild Lettuce,,,2,,,,,,,
+April,1,10,1-10,Preemergent,Lactuca spp.,Wild Lettuce,5,2,,,,,,,,
+April,1,10,1-10,Preemergent,Lepidium virginicum,Virginia pepperweed,4,6,4,4,,2,3,,2,2
+April,1,10,1-10,Preemergent,Linaria canadensis,Toadflax,,,,,,,,,,
+April,1,10,1-10,Preemergent,Oenothera laciniata,Evening Primrose,,,,,,,,,,1
+April,1,10,1-10,Preemergent,Oxalis corniculata,Creeping Woodsorrel,,,,,,,,,,
+April,1,10,1-10,Preemergent,Paspalum notatum,Bahiagrass,,,,,,,,,,
+April,1,10,1-10,Preemergent,Paspalum setaceum,Bull Paspalum,,,,,,,,,,
+April,1,10,1-10,Preemergent,Phyllanthus urinaria,Chamber Bitter,,,,,,,,,,
+April,1,10,1-10,Preemergent,Richardia spp.,Pusley,5,,,,1,2,2,,1,
+April,1,10,1-10,Preemergent,Rumex hastatulus,Heartwing sorrel,,,,,,,,,,
+April,1,10,1-10,Preemergent,Sonchus asper,Bull Thistle,,,,,,,,,,
+April,1,11,1-11,Soil Inversion,Bare Ground,Bare Ground,8,8,8,9,8,9,9,8,8,8
+April,1,11,1-11,Soil Inversion,Cynodon dactylon,Bermudagrass,3,2,2,1,1,2,2,,1,
+April,1,11,1-11,Soil Inversion,Cyperus spp.,Nutsedge/Globesedge,3,2,3,2,3,3,3,4,3,4
+April,1,11,1-11,Soil Inversion,Erigeron canadensis,Butterweed horseweed,3,,2,3,4,,2,,5,6
+April,1,11,1-11,Soil Inversion,Gamochaeta spp.,Cudweed,1,,,,1,5,1,1,1,1
+April,1,11,1-11,Soil Inversion,Indigofera hirsuta,Hairy Indigo,,,,,,,,,,
+April,1,11,1-11,Soil Inversion,Lactuca spp.,Wild Lettuce,,,,,,,,,,
+April,1,11,1-11,Soil Inversion,Lepidium virginicum,Virginia pepperweed,1,1,1,1,1,1,1,1,1,1
+April,1,11,1-11,Soil Inversion,Linaria canadensis,Toadflax,,,,,,,,,2,
+April,1,11,1-11,Soil Inversion,Oenothera laciniata,Evening Primrose,5,7,7,5,7,6,4,6,6,5
+April,1,11,1-11,Soil Inversion,Oxalis corniculata,Creeping Woodsorrel,,,,,,,,,,
+April,1,11,1-11,Soil Inversion,Paspalum notatum,Bahiagrass,2,1,1,2,,,,3,2,2
+April,1,11,1-11,Soil Inversion,Paspalum setaceum,Bull Paspalum,,,,,,,,,,
+April,1,11,1-11,Soil Inversion,Phyllanthus urinaria,Chamber bitter,,,,,,,,,,
+April,1,11,1-11,Soil Inversion,Richardia spp.,Pusley,4,2,2,2,6,2,4,5,2,4
+April,1,11,1-11,Soil Inversion,Rumex hastatulus,Heartwing sorrel,,,,,,,,,,
+April,1,11,1-11,Soil Inversion,Sida spp.,Fanpetal,,,,,,2,,,,
+April,1,11,1-11,Soil Inversion,Sonchus asper,Bull Thistle,,,,,,,,,,
+April,1,12,1-12,Preemergent,Bare Ground,Bare Ground,8,8,7,8,7,8,9,8,7,8
+April,1,12,1-12,Preemergent,Cynodon dactylon,Bermudagrass,5,6,2,1,4,,2,2,3,
+April,1,12,1-12,Preemergent,Cyperus spp.,Nutsedge/Globesedge,,,,,,,,,,
+April,1,12,1-12,Preemergent,Erigeron canadensis,Butterweed horseweed,3,3,3,4,1,2,5,4,5,5
+April,1,12,1-12,Preemergent,Gamochaeta spp.,Cudweed,,,,,,,,,,
+April,1,12,1-12,Preemergent,Indigofera hirsuta,Hairy Indigo,2,4,,,,,,,,3
+April,1,12,1-12,Preemergent,Lactuca spp.,Wild Lettuce,,2,,,,,1,4,,
+April,1,12,1-12,Preemergent,Lepidium virginicum,Virginia pepperweed,2,,4,3,2,2,1,,4,
+April,1,12,1-12,Preemergent,Linaria canadensis,Toadflax,,,,,,,,,,
+April,1,12,1-12,Preemergent,Oenothera laciniata,Evening Primrose,,,,,,,,,,
+April,1,12,1-12,Preemergent,Oxalis corniculata,Creeping Woodsorrel,,,,,,,,,,
+April,1,12,1-12,Preemergent,Paspalum notatum,Bahiagrass,,,,,,,,,,3
+April,1,12,1-12,Preemergent,Paspalum setaceum,Bull Paspalum,,,,,,,,,,
+April,1,12,1-12,Preemergent,Phyllanthus urinaria,Chamber bitter,,,,,,,,,,
+April,1,12,1-12,Preemergent,Richardia spp.,Pusley,,,,,,,,,,
+April,1,12,1-12,Preemergent,Rumex hastatulus,Heartwing sorrel,3,4,5,,5,5,5,6,4,6
+April,1,12,1-12,Preemergent,Sonchus asper,Bull Thistle,,,,,,,,,,
+April,2,1,2-1,Soil Inversion,Bare Ground,Bare Ground,8,8,8,8,8,8,8,8,8,8
+April,2,1,2-1,Soil Inversion,Cynodon dactylon,Bermudagrass,3,2,1,,2,1,2,2,3,3
+April,2,1,2-1,Soil Inversion,Cyperus spp.,Nutsedge/Globesedge,3,3,3,3,3,2,3,4,4,2
+April,2,1,2-1,Soil Inversion,Erigeron canadensis,Butterweed horseweed,3,3,4,4,2,2,2,3,2,3
+April,2,1,2-1,Soil Inversion,Gamochaeta spp.,Cudweed,1,1,1,1,1,1,1,1,2,2
+April,2,1,2-1,Soil Inversion,Indigofera hirsuta,Hairy Indigo,2,,1,,,,,,1,
+April,2,1,2-1,Soil Inversion,Lactuca spp.,Wild Lettuce,,,,,,,,,,
+April,2,1,2-1,Soil Inversion,Linaria canadensis,Toadflax,1,1,1,1,2,1,2,1,1,1
+April,2,1,2-1,Soil Inversion,Oenothera laciniata,Evening Primrose,6,7,5,7,6,7,5,6,6,6
+April,2,1,2-1,Soil Inversion,Oxalis corniculata,Creeping Woodsorrel,,,,,,,,,,
+April,2,1,2-1,Soil Inversion,Paspalum notatum,Bahiagrass,2,2,,2,2,,2,2,,2
+April,2,1,2-1,Soil Inversion,Paspalum setaceum,Bull Paspalum,,,,,,,,,,
+April,2,1,2-1,Soil Inversion,Phyllanthus urinaria,Chamber bitter,,,,,,,,,,
+April,2,1,2-1,Soil Inversion,Portulaca spp.,Purslane,2,2,2,,2,2,,2,2,2
+April,2,1,2-1,Soil Inversion,Richardia spp.,Pusley,6,6,6,6,6,6,6,6,5,5
+April,2,1,2-1,Soil Inversion,Rumex hastatulus,Heartwing sorrel,,,,,,,,,,
+April,2,1,2-1,Soil Inversion,Sonchus asper,Bull Thistle,,,,,,,,,,
+April,2,2,2-2,Control,Bare Ground,Bare Ground,7,8,7,8,8,8,7,8,6,8
+April,2,2,2-2,Control,Cynodon dactylon,Bermudagrass,,,2,2,2,3,2,,5,5
+April,2,2,2-2,Control,Cyperus spp.,Nutsedge/Globesedge,1,2,,,2,,2,,3,
+April,2,2,2-2,Control,Erigeron canadensis,Butterweed horseweed,2,2,3,2,2,2,3,3,2,2
+April,2,2,2-2,Control,Gamochaeta spp.,Cudweed,1,1,1,1,1,2,1,1,1,1
+April,2,2,2-2,Control,Indigofera hirsuta,Hairy Indigo,,,,3,3,,1,3,3,2
+April,2,2,2-2,Control,Lactuca spp.,Wild Lettuce,,,,3,6,6,7,6,6,6
+April,2,2,2-2,Control,Linaria canadensis,Toadflax,,,,,1,,1,,,1
+April,2,2,2-2,Control,Oenothera laciniata,Evening Primrose,5,6,6,6,6,6,7,6,6,6
+April,2,2,2-2,Control,Oxalis corniculata,Creeping Woodsorrel,,,,,,,,,,
+April,2,2,2-2,Control,Paspalum notatum,Bahiagrass,6,6,6,6,5,6,5,5,5,6
+April,2,2,2-2,Control,Paspalum setaceum,Bull Paspalum,,,,,,,,,,
+April,2,2,2-2,Control,Phyllanthus urinaria,Chamber bitter,,,,,,,,,,
+April,2,2,2-2,Control,Richardia spp.,Pusley,1,4,2,2,3,,3,3,2,3
+April,2,2,2-2,Control,Rumex hastatulus,Heartwing sorrel,,2,,2,2,,,,,
+April,2,2,2-2,Control,Sonchus asper,Bull Thistle,,,,,,,,,,
+April,2,3,2-3,Soil Inversion,Bare Ground,Bare Ground,8,8,8,8,8,6,6,7,7,7
+April,2,3,2-3,Soil Inversion,Cynodon dactylon,Bermudagrass,,2,2,3,,2,2,,,
+April,2,3,2-3,Soil Inversion,Cyperus spp.,Nutsedge/Globesedge,4,4,2,4,3,3,2,3,3,2
+April,2,3,2-3,Soil Inversion,Erigeron canadensis,Butterweed horseweed,,4,2,2,6,3,2,3,2,2
+April,2,3,2-3,Soil Inversion,Gamochaeta spp.,Cudweed,1,1,1,1,1,1,1,1,1,1
+April,2,3,2-3,Soil Inversion,Indigofera hirsuta,Hairy Indigo,,,1,,,2,1,,,2
+April,2,3,2-3,Soil Inversion,Lactuca spp.,Wild Lettuce,,,,,,,,,,
+April,2,3,2-3,Soil Inversion,Lepidium virginicum,Virginia pepperweed,1,,,1,1,1,,,,1
+April,2,3,2-3,Soil Inversion,Linaria canadensis,Toadflax,,1,1,1,1,1,1,1,1,1
+April,2,3,2-3,Soil Inversion,Oenothera laciniata,Evening Primrose,6,6,7,6,6,7,6,7,6,6
+April,2,3,2-3,Soil Inversion,Oxalis corniculata,Creeping Woodsorrel,,,,,,,,,,
+April,2,3,2-3,Soil Inversion,Paspalum notatum,Bahiagrass,4,4,2,2,2,2,2,2,2,2
+April,2,3,2-3,Soil Inversion,Paspalum setaceum,Bull Paspalum,,,,,,,,,,
+April,2,3,2-3,Soil Inversion,Phyllanthus urinaria,Chamber bitter,,,,,,,,,,
+April,2,3,2-3,Soil Inversion,Portulaca spp.,Purslane,,,,,,,,2,,
+April,2,3,2-3,Soil Inversion,Richardia spp.,Pusley,6,5,6,6,4,5,6,6,6,6
+April,2,3,2-3,Soil Inversion,Rumex hastatulus,Heartwing sorrel,3,,1,4,,3,,3,,2
+April,2,3,2-3,Soil Inversion,Sonchus asper,Bull Thistle,,,,,,,,,,
+April,2,4,2-4,Preemergent,Bare Ground,Bare Ground,9,9,8,9,7,8,9,9,9,9
+April,2,4,2-4,Preemergent,Cynodon dactylon,Bermudagrass,,4,4,,7,6,4,5,4,3
+April,2,4,2-4,Preemergent,Cyperus spp.,Nutsedge/globesedge,2,3,2,2,,,,2,,
+April,2,4,2-4,Preemergent,Erigeron canadensis,Butterweed horseweed,3,4,4,,5,2,5,2,5,5
+April,2,4,2-4,Preemergent,Gamochaeta spp.,Cudweed,2,4,3,4,3,,4,4,5,5
+April,2,4,2-4,Preemergent,Indigofera hirsuta,Hairy indigo,2,,,2,2,,,,,2
+April,2,4,2-4,Preemergent,Lepidium virginicum,Virginia pepperweed,2,,1,2,1,,2,2,2,2
+April,2,4,2-4,Preemergent,Oenothera laciniata,Evening primrose,3,,5,5,,,2,,,2
+April,2,4,2-4,Preemergent,Oxalis corniculata,Creeping woodsorrel,,,,,,,,,,
+April,2,4,2-4,Preemergent,Paspalum notatum,Bahiagrass,3,3,4,2,,4,4,6,5,4
+April,2,4,2-4,Preemergent,Phyllanthus urinaria,Chamber bitter,,,,,,,,,,
+April,2,4,2-4,Preemergent,Richardia spp.,Pusley,3,3,5,3,,2,4,4,2,
+April,2,4,2-4,Preemergent,Rumex hastatulus,Heartwing sorrel,2,,,,,2,3,,,
+April,2,4,2-4,Preemergent,Sonchus asper,Bull Thistle,,,,,,,,,,
+April,2,5,2-5,Preemergent,Bare Ground,Bare Ground,9,8,8,9,8,9,9,8,9,9
+April,2,5,2-5,Preemergent,Cynodon dactylon,Bermudagrass,4,6,,,5,5,2,4,4,3
+April,2,5,2-5,Preemergent,Cyperus spp.,Nutsedge/globesedge,,2,2,1,,,,,,1
+April,2,5,2-5,Preemergent,Erigeron canadensis,Butterweed horseweed,4,5,6,5,5,5,5,6,6,5
+April,2,5,2-5,Preemergent,Gamochaeta spp.,Cudweed,4,4,4,4,4,2,4,3,2,4
+April,2,5,2-5,Preemergent,Indigofera hirsuta,Hairy indigo,,4,3,2,,,2,2,,
+April,2,5,2-5,Preemergent,Lactuca spp.,Wild Lettuce,5,1,,,,,,,,
+April,2,5,2-5,Preemergent,Lepidium virginicum,Virginia pepperweed,,,1,1,,,,1,,
+April,2,5,2-5,Preemergent,Oenothera laciniata,Evening primrose,,5,,,,,,,,
+April,2,5,2-5,Preemergent,Oxalis corniculata,Creeping woodsorrel,,,,,,,,,,
+April,2,5,2-5,Preemergent,Paspalum notatum,Bahiagrass,2,2,2,3,3,5,5,,,
+April,2,5,2-5,Preemergent,Phyllanthus urinaria,Chamber bitter,,,,,,,,,,
+April,2,5,2-5,Preemergent,Richardia spp.,Pusley,2,3,5,,6,2,6,2,2,
+April,2,5,2-5,Preemergent,Rumex hastatulus,Heartwing sorrel,,,,,,,,,,
+April,2,5,2-5,Preemergent,Sonchus asper,Bull Thistle,,,,,,,,,,
+April,2,6,2-6,Fill Sand,Bare Ground,Bare Ground,9,9,9,9,8,8,9,8,9,9
+April,2,6,2-6,Fill Sand,Cynodon dactylon,Bermudagrass,2,5,,2,5,2,,2,2,
+April,2,6,2-6,Fill Sand,Cyperus spp.,Nutsedge/globesedge,,2,3,2,2,,1,,,
+April,2,6,2-6,Fill Sand,Indigofera hirsuta,Hairy indigo,,,,,6,,7,5,7,2
+April,2,6,2-6,Fill Sand,Lepidium virginicum,Virginia pepperweed,1,,,1,,1,,1,1,1
+April,2,6,2-6,Fill Sand,Paspalum notatum,Bahiagrass,3,4,4,5,4,5,3,2,3,3
+April,2,6,2-6,Fill Sand,Richardia spp.,Pusley,3,,,6,6,5,4,2,5,5
+April,2,6,2-6,Fill Sand,Rumex hastatulus,Heartwing sorrel,,,,,,,3,,5,
+April,2,7,2-7,Control,Bare Ground,Bare Ground,8,7,7,7,7,7,8,7,8,7
+April,2,7,2-7,Control,Cynodon dactylon,Bermudagrass,,,,2,,3,3,2,2,2
+April,2,7,2-7,Control,Cyperus spp.,Nutsedge/Globesedge,2,1,,,,2,,2,,
+April,2,7,2-7,Control,Erigeron canadensis,Butterweed/Horseweed,2,2,2,5,2,2,4,3,4,3
+April,2,7,2-7,Control,Gamochaeta spp.,Cudweed,1,1,1,1,1,1,1,1,1,1
+April,2,7,2-7,Control,Indigofera hirsuta,Hairy Indigo,,,,,,,,,,
+April,2,7,2-7,Control,Lepidium virginicum,Virginia pepperweed,1,1,1,,,1,1,1,,1
+April,2,7,2-7,Control,Oenothera laciniata,Evening Primrose,6,7,6,6,6,7,6,5,7,7
+April,2,7,2-7,Control,Oxalis corniculata,Creeping Woodsorrel,,,,,,,,,,
+April,2,7,2-7,Control,Paspalum notatum,Bahiagrass,3,4,5,5,5,,4,6,4,4
+April,2,7,2-7,Control,Phyllanthus urinaria,Chamber Bitter,,,,,,,,,,
+April,2,7,2-7,Control,Richardia spp.,Pusley,3,3,2,3,,5,2,1,2,2
+April,2,7,2-7,Control,Rumex hastatulus,Heartwing Sorrel,,,,,2,2,,,,
+April,2,7,2-7,Control,Sonchus asper,Bull Thistle,,,,,,,,,,
+April,2,8,2-8,Fill Sand,Bare Ground,Bare Ground,8,9,8,8,9,8,9,8,9,9
+April,2,8,2-8,Fill Sand,Cynodon dactylon,Bermudagrass,2,2,5,2,4,6,3,4,4,5
+April,2,8,2-8,Fill Sand,Cyperus spp.,Nutsedge/globesedge,2,4,3,2,4,,3,2,2,2
+April,2,8,2-8,Fill Sand,Erigeron canadensis,Butterweed horseweed,6,5,,,6,,,,,
+April,2,8,2-8,Fill Sand,Gamochaeta spp.,Cudweed,1,,,,,,,,,
+April,2,8,2-8,Fill Sand,Indigofera hirsuta,Hairy indigo,,,,,,,,,,
+April,2,8,2-8,Fill Sand,Lepidium virginicum,Virginia pepperweed,1,2,,,,,,1,1,1
+April,2,8,2-8,Fill Sand,Oenothera laciniata,Evening primrose,5,,5,6,,2,,7,6,5
+April,2,8,2-8,Fill Sand,Oxalis corniculata,Creeping woodsorrel,,,,,,,,,,
+April,2,8,2-8,Fill Sand,Paspalum notatum,Bahiagrass,5,5,3,6,2,6,6,4,2,2
+April,2,8,2-8,Fill Sand,Phyllanthus urinaria,Chamber bitter,,,,,,,,,,
+April,2,8,2-8,Fill Sand,Richardia spp.,Pusley,,5,5,3,,,4,4,4,
+April,2,8,2-8,Fill Sand,Rumex hastatulus,Heartwing sorrel,,,,,,,,,,
+April,2,8,2-8,Fill Sand,Sonchus asper,Bull Thistle,,,,,,,,,,
+April,2,9,2-9,Control,Bare Ground,Bare Ground,7,7,8,7,7,6,8,7,8,7
+April,2,9,2-9,Control,Cynodon dactylon,Bermudagrass,,,2,,,3,3,2,,
+April,2,9,2-9,Control,Cyperus spp.,Nutsedge/Globesedge,,2,,,,,,,,
+April,2,9,2-9,Control,Erigeron canadensis,Butterweed horseweed,2,,1,,,2,3,3,2,3
+April,2,9,2-9,Control,Gamochaeta spp.,Cudweed,3,3,,2,2,2,5,4,3,6
+April,2,9,2-9,Control,Indigofera hirsuta,Hairy Indigo,,,,,,,,,,
+April,2,9,2-9,Control,Lactuca spp.,Wild Lettuce,,,,,,,,,,
+April,2,9,2-9,Control,Linaria canadensis,Toadflax,1,,,2,1,,,,,2
+April,2,9,2-9,Control,Oenothera laciniata,Evening Primrose,7,6,7,7,6,8,5,5,5,5
+April,2,9,2-9,Control,Oxalis corniculata,Creeping Woodsorrel,,,,,,,,,,
+April,2,9,2-9,Control,Paspalum notatum,Bahiagrass,,,2,2,3,2,6,6,6,3
+April,2,9,2-9,Control,Paspalum setaceum,Bull Paspalum,,,,,,,,,,
+April,2,9,2-9,Control,Phyllanthus urinaria,Chamber bitter,,,,,,,,,,
+April,2,9,2-9,Control,Richardia spp.,Pusley,4,2,2,3,2,2,4,4,3,4
+April,2,9,2-9,Control,Rumex hastatulus,Heartwing sorrel,,,,,,,,,,
+April,2,9,2-9,Control,Sonchus asper,Bull Thistle,,,,,,,,,,
+April,2,10,2-10,Fill Sand,Bare Ground,Bare Ground,9,9,9,9,10,9,8,9,8,9
+April,2,10,2-10,Fill Sand,Cynodon dactylon,Bermudagrass,,2,2,,,2,5,5,2,2
+April,2,10,2-10,Fill Sand,Cyperus spp.,Nutsedge/Globesedge,,,2,3,2,4,2,,2,1
+April,2,10,2-10,Fill Sand,Erigeron canadensis,Butterweed horseweed,.,5,.,.,.,2,3,3,.,.
+April,2,10,2-10,Fill Sand,Gamochaeta spp.,Cudweed,.,.,.,.,.,.,.,.,.,.
+April,2,10,2-10,Fill Sand,Indigofera hirsuta,Hairy Indigo,,,,,,,,,,
+April,2,10,2-10,Fill Sand,Lactuca spp.,Wild Lettuce,.,.,.,.,.,.,.,.,.,.
+April,2,10,2-10,Fill Sand,Linaria canadensis,Toadflax,,,,,,,,,,
+April,2,10,2-10,Fill Sand,Oenothera laciniata,Evening Primrose,3,3,,,3,,5,5,5,
+April,2,10,2-10,Fill Sand,Oxalis corniculata,Creeping Woodsorrel,,,,,,,,,,
+April,2,10,2-10,Fill Sand,Paspalum notatum,Bahiagrass,3,3,4,3,3,4,4,5,6,5
+April,2,10,2-10,Fill Sand,Paspalum setaceum,Bull Paspalum,.,.,.,.,.,.,.,.,.,.
+April,2,10,2-10,Fill Sand,Phyllanthus urinaria,Chamber bitter,.,.,.,.,.,.,.,.,.,.
+April,2,10,2-10,Fill Sand,Richardia spp.,Pusley,3,4,5,4,,,4,3,4,
+April,2,10,2-10,Fill Sand,Rumex hastatulus,Heartwing sorrel,.,.,.,.,.,.,.,.,.,.
+April,2,10,2-10,Fill Sand,Sonchus asper,Bull Thistle,.,.,.,.,.,.,.,.,.,.
+April,2,11,2-11,Soil Inversion,Bare Ground,Bare Ground,8,8,8,8,7,7,7,7,8,8
+April,2,11,2-11,Soil Inversion,Cynodon dactylon,Bermudagrass,,,,,2,1,,,1,2
+April,2,11,2-11,Soil Inversion,Cyperus spp.,Nutsedge/Globesedge,5,5,5,5,4,4,4,4,4,4
+April,2,11,2-11,Soil Inversion,Erigeron canadensis,Butterweed horseweed,4,,,4,2,4,3,2,3,2
+April,2,11,2-11,Soil Inversion,Gamochaeta spp.,Cudweed,4,4,3,2,2,4,4,,3,3
+April,2,11,2-11,Soil Inversion,Indigofera hirsuta,Hairy Indigo,,,,,,,,,,
+April,2,11,2-11,Soil Inversion,Lactuca spp.,Wild Lettuce,.,.,.,.,.,.,.,.,.,.
+April,2,11,2-11,Soil Inversion,Linaria canadensis,Toadflax,3,4,4,4,3,4,6,4,6,5
+April,2,11,2-11,Soil Inversion,Oenothera laciniata,Evening Primrose,6,7,6,5,7,6,5,4,,6
+April,2,11,2-11,Soil Inversion,Oxalis corniculata,Creeping Woodsorrel,,,,,,,,,,
+April,2,11,2-11,Soil Inversion,Paspalum notatum,Bahiagrass,2,2,2,2,3,1,1,2,,1
+April,2,11,2-11,Soil Inversion,Paspalum setaceum,Bull Paspalum,.,.,.,.,.,.,.,.,.,.
+April,2,11,2-11,Soil Inversion,Phyllanthus urinaria,Chamber bitter,.,.,.,.,.,.,.,.,.,.
+April,2,11,2-11,Soil Inversion,Richardia spp.,Pusley,5,4,4,5,5,2,4,5,1,4
+April,2,11,2-11,Soil Inversion,Rumex hastatulus,Heartwing sorrel,,,,,,,,,,
+April,2,11,2-11,Soil Inversion,Sonchus asper,Bull Thistle,.,.,.,.,.,.,.,.,.,.
+April,2,12,2-12,Preemergent,Bare Ground,Bare Ground,9,9,9,9,9,9,9,9,9,9
+April,2,12,2-12,Preemergent,Cynodon dactylon,Bermudagrass,4,2,3,2,4,4,4,1,2,2
+April,2,12,2-12,Preemergent,Cyperus spp.,Nutsedge/Globesedge,2,2,2,2,2,1,,1,2,2
+April,2,12,2-12,Preemergent,Erigeron canadensis,Butterweed horseweed,3,4,4,3,2,2,2,2,3,2
+April,2,12,2-12,Preemergent,Gamochaeta spp.,Cudweed,2,3,4,4,2,1,2,2,3,2
+April,2,12,2-12,Preemergent,Indigofera hirsuta,Hairy Indigo,,,,,,,,,,
+April,2,12,2-12,Preemergent,Lactuca spp.,Wild Lettuce,,,,,,,,,,
+April,2,12,2-12,Preemergent,Lepidium virginicum,Virginia pepperweed,4,2,3,2,,,,,,
+April,2,12,2-12,Preemergent,Linaria canadensis,Toadflax,,,,,,,,,,
+April,2,12,2-12,Preemergent,Oenothera laciniata,Evening Primrose,2,2,2,,,1,1,6,,
+April,2,12,2-12,Preemergent,Oxalis corniculata,Creeping Woodsorrel,,,,,,,,,,
+April,2,12,2-12,Preemergent,Paspalum notatum,Bahiagrass,,,3,3,4,3,4,4,3,4
+April,2,12,2-12,Preemergent,Paspalum setaceum,Bull Paspalum,,,,,,,,,,
+April,2,12,2-12,Preemergent,Phyllanthus urinaria,Chamber bitter,,,,,,,,,,
+April,2,12,2-12,Preemergent,Richardia spp.,Pusley,2,2,3,,2,,2,3,,2
+April,2,12,2-12,Preemergent,Rumex hastatulus,Heartwing sorrel,2,2,,,,,,,,
+April,2,12,2-12,Preemergent,Sonchus asper,Bull Thistle,,,,,,,,,,
+Jan,1,1,1-1,Soil Inversion,Bare Ground,Bare Ground,8,8,8,7,7,6,7,7,8,6
+Jan,1,1,1-1,Soil Inversion,Cynodon dactylon,Bermudagrass,,2,,,,,2,1,2,
+Jan,1,1,1-1,Soil Inversion,Cyperus spp.,Nutsedge/Globesedge,4,4,2,3,3,4,3,2,3,3
+Jan,1,1,1-1,Soil Inversion,Erigeron canadensis,Butterweed Horseweed,,4,,,,,,,,
+Jan,1,1,1-1,Soil Inversion,Gamochaeta spp.,Cudweed,4,4,4,3,4,4,4,5,2,5
+Jan,1,1,1-1,Soil Inversion,Indigofera hirsuta,Hairy Indigo,,,,,,,,,,
+Jan,1,1,1-1,Soil Inversion,Lactuca spp.,Canada Lettuce,,,,,,,,,,
+Jan,1,1,1-1,Soil Inversion,Linaria canadensis,Toadflax,,5,4,3,4,4,4,5,,5
+Jan,1,1,1-1,Soil Inversion,Oenothera laciniata,Evening Primrose,0,5,5,4,6,6,5,6,4,6
+Jan,1,1,1-1,Soil Inversion,Oxalis corniculata,Creeping Woodsorrel,,,,,,,,,,
+Jan,1,1,1-1,Soil Inversion,Paspalum notatum,Bahiagrass,,,,2,3,2,,1,1,
+Jan,1,1,1-1,Soil Inversion,Paspalum setaceum,Thin Paspalum,,,,,,,,,,
+Jan,1,1,1-1,Soil Inversion,Phyllanthus urinaria,Chamber Bitter,,,,,,,,,,
+Jan,1,1,1-1,Soil Inversion,Richardia spp.,Pusley,6,7,6,7,6,7,6,6,6,5
+Jan,1,1,1-1,Soil Inversion,Rumex hastatulus,Heartwing Sorrel,,,,,,,4,,,
+Jan,1,1,1-1,Soil Inversion,Sinapis arvensis,Wild Mustard,7,,5,5,7,7,,,,
+Jan,1,1,1-1,Soil Inversion,Sonchus asper,Bull Thistle,,,,,,,,,,
+Jan,1,2,1-2,Control,Bare Ground,Bare Ground,7,8,8,9,9,8,7,9,9,9
+Jan,1,2,1-2,Control,Cynodon dactylon,Bermudagrass,,2,4,2,3,,,,,
+Jan,1,2,1-2,Control,Cyperus spp.,Nutsedge/Globesedge,,1,3,2,2,3,,,,
+Jan,1,2,1-2,Control,Erigeron canadensis,Butterweed horseweed,,2,,,2,3,3,3,3,3
+Jan,1,2,1-2,Control,Gamochaeta spp.,Cudweed,5,3,3,3,4,6,6,5,3,4
+Jan,1,2,1-2,Control,Indigofera hirsuta,Hairy Indigo,,,,,,,,,,
+Jan,1,2,1-2,Control,Lactuca spp.,Canada Lettuce,,,,,,,,,,
+Jan,1,2,1-2,Control,Linaria canadensis,Toadflax,2,2,2,,,2,,2,,2
+Jan,1,2,1-2,Control,Oenothera laciniata,Evening Primrose,5,6,3,6,,2,4,,,5
+Jan,1,2,1-2,Control,Oxalis corniculata,Creeping Woodsorrel,2,2,2,2,,,,,,
+Jan,1,2,1-2,Control,Paspalum notatum,Bahiagrass,,,,,3,3,2,2,2,4
+Jan,1,2,1-2,Control,Paspalum setaceum,Thin Paspalum,,,,,,,,,,
+Jan,1,2,1-2,Control,Phyllanthus urinaria,Chamber bitter,,,,,,,,,,
+Jan,1,2,1-2,Control,Richardia spp.,Pusley,4,3,6,3,,,5,4,2,4
+Jan,1,2,1-2,Control,Rumex hastatulus,Heartwing sorrel,,,,,,,,,,
+Jan,1,2,1-2,Control,Sonchus asper,Bull Thistle,,2,,,,,,,,
+Jan,1,2,1-2,Control,Triodanis perfoliata,Clasping Venus,2,2,,,1,3,,3,,2
+Jan,1,3,1-3,Soil Inversion,Bare Ground,Bare Ground,9,9,8,9,8,8,7,7,5,6
+Jan,1,3,1-3,Soil Inversion,Cynodon dactylon,Bermudagrass,,,,,,,,2,,
+Jan,1,3,1-3,Soil Inversion,Cyperus spp.,Nutsedge/Globesedge,2,2,3,3,3,3,5,3,5,4
+Jan,1,3,1-3,Soil Inversion,Erigeron canadensis,Butterweed Horseweed,2,2,3,2,,,,,,4
+Jan,1,3,1-3,Soil Inversion,Gamochaeta spp.,Cudweed,3,4,5,3,4,4,5,6,5,5
+Jan,1,3,1-3,Soil Inversion,Indigofera hirsuta,Hairy Indigo,,,,,,,,,,
+Jan,1,3,1-3,Soil Inversion,Lactuca spp.,Canada Lettuce,,,,,,,,,,
+Jan,1,3,1-3,Soil Inversion,Linaria canadensis,Toadflax,6,5,5,2,,4,5,5,5,5
+Jan,1,3,1-3,Soil Inversion,Oenothera laciniata,Evening Primrose,,,2,,,4,4,4,,
+Jan,1,3,1-3,Soil Inversion,Oxalis corniculata,Creeping Woodsorrel,,,,,,,,,,
+Jan,1,3,1-3,Soil Inversion,Paspalum notatum,Bahiagrass,2,,,,2,2,,,2,
+Jan,1,3,1-3,Soil Inversion,Paspalum setaceum,Thin Paspalum,,,,,,,,,,
+Jan,1,3,1-3,Soil Inversion,Phyllanthus urinaria,Chamber Bitter,,,,,,,,,,
+Jan,1,3,1-3,Soil Inversion,Portulaca spp.,Purslane,2,,2,2,,2,2,,,2
+Jan,1,3,1-3,Soil Inversion,Richardia spp.,Pusley,5,5,3,5,6,6,7,6,5,6
+Jan,1,3,1-3,Soil Inversion,Rumex hastatulus,Heartwing Sorrel,,,,,,,,,,
+Jan,1,3,1-3,Soil Inversion,Sonchus asper,Bull Thistle,,,,,,,,,,
+Jan,1,3,1-3,Soil Inversion,Triodanis perfoliata,Clasping Venus,1,3,2,,,,2,2,2,2
+Jan,1,4,1-4,Control,Bare Ground,Bare Ground,8,8,8,9,9,9,8,9,8,9
+Jan,1,4,1-4,Control,Cynodon dactylon,Bermudagrass,,2,3,,,,2,,,
+Jan,1,4,1-4,Control,Cyperus spp.,Nutsedge/Globesedge,,,,,,2,,,,
+Jan,1,4,1-4,Control,Erigeron canadensis,Butterweed Horseweed,3,2,,2,,,,,2,3
+Jan,1,4,1-4,Control,Gamochaeta spp.,Cudweed,5,5,6,6,4,5,4,,4,4
+Jan,1,4,1-4,Control,Indigofera hirsuta,Hairy Indigo,1,,,,,,,,,
+Jan,1,4,1-4,Control,Lactuca spp.,Canada Lettuce,,,,,,,,,,
+Jan,1,4,1-4,Control,Linaria canadensis,Toadflax,1,,2,1,,,2,2,2,
+Jan,1,4,1-4,Control,Oenothera laciniata,Evening Primrose,4,2,2,2,2,3,4,5,5,
+Jan,1,4,1-4,Control,Oxalis corniculata,Creeping Woodsorrel,6,5,3,4,,,,,,
+Jan,1,4,1-4,Control,Paspalum notatum,Bahiagrass,4,,,4,,4,,,,4
+Jan,1,4,1-4,Control,Paspalum setaceum,Thin Paspalum,,,,,,,,,,
+Jan,1,4,1-4,Control,Phyllanthus urinaria,Chamber Bitter,,,,,,,,,,
+Jan,1,4,1-4,Control,Richardia spp.,Pusley,2,2,5,2,3,3,5,3,4,3
+Jan,1,4,1-4,Control,Rumex hastatulus,Heartwing Sorrel,,,,,4,,3,2,,
+Jan,1,4,1-4,Control,Sinapis arvensis,Wild Mustard,6,,,,,,,,,
+Jan,1,4,1-4,Control,Sonchus asper,Bull Thistle,,,,,,,,,,
+Jan,1,4,1-4,Control,Triodanis perfoliata,Clasping Venus,2,,3,2,2,,2,3,2,2
+Jan,1,5,1-5,Preemergent,Bare Ground,Bare Ground,8,9,9,8,9,10,10,10,10,9
+Jan,1,5,1-5,Preemergent,Cynodon dactylon,Bermudagrass,,2,2,2,,,,2,,
+Jan,1,5,1-5,Preemergent,Cyperus spp.,Nutsedge/Globesedge,,,,,,,,,,
+Jan,1,5,1-5,Preemergent,Erigeron canadensis,Butterweed Horseweed,,2,2,,,,2,,,
+Jan,1,5,1-5,Preemergent,Gamochaeta spp.,Cudweed,2,2,4,,,,,,,
+Jan,1,5,1-5,Preemergent,Indigofera hirsuta,Hairy Indigo,,,,,,,,,,
+Jan,1,5,1-5,Preemergent,Lactuca spp.,Canada Lettuce,,,,,,,,,,
+Jan,1,5,1-5,Preemergent,Oenothera laciniata,Evening Primrose,2,2,4,2,,,1,,,
+Jan,1,5,1-5,Preemergent,Oxalis corniculata,Creeping Woodsorrel,,,,,,,,,,
+Jan,1,5,1-5,Preemergent,Paspalum notatum,Bahiagrass,2,1,3,,2,3,3,3,1,
+Jan,1,5,1-5,Preemergent,Paspalum setaceum,Thin Paspalum,,,,,,,,,,
+Jan,1,5,1-5,Preemergent,Phyllanthus urinaria,Chamber Bitter,,,,,,,,,,
+Jan,1,5,1-5,Preemergent,Richardia spp.,Pusley,2,2,,2,2,,2,,1,3
+Jan,1,5,1-5,Preemergent,Rumex hastatulus,Heartwing Sorrel,,,,,,,,,,
+Jan,1,5,1-5,Preemergent,Sonchus asper,Bull Thistle,,,,,,,,,,
+Jan,1,6,1-6,Fill Sand,Bare Ground,Bare Ground,10,10,10,10,10,10,10,10,10,10
+Jan,1,6,1-6,Fill Sand,Cynodon dactylon,Bermudagrass,,2,2,2,,,,,,
+Jan,1,6,1-6,Fill Sand,Cyperus spp.,Nutsedge/Globesedge,,,,,3,,,,3,
+Jan,1,6,1-6,Fill Sand,Erigeron canadensis,Butterweed Horseweed,,2,2,,,,,,2,
+Jan,1,6,1-6,Fill Sand,Gamochaeta spp.,Cudweed,,,,,,,,,,
+Jan,1,6,1-6,Fill Sand,Indigofera hirsuta,Hairy Indigo,,,,,,,,,,
+Jan,1,6,1-6,Fill Sand,Lactuca spp.,Canada Lettuce,,,,,,,,,,
+Jan,1,6,1-6,Fill Sand,Oenothera laciniata,Evening Primrose,,,,,,,,,,
+Jan,1,6,1-6,Fill Sand,Oxalis corniculata,Creeping Woodsorrel,,2,2,,,2,,,2,2
+Jan,1,6,1-6,Fill Sand,Paspalum notatum,Bahiagrass,2,2,2,2,2,3,2,4,2,2
+Jan,1,6,1-6,Fill Sand,Paspalum setaceum,Thin Paspalum,,,,,,,,,,
+Jan,1,6,1-6,Fill Sand,Phyllanthus urinaria,Chamber Bitter,,,,,,,,,,
+Jan,1,6,1-6,Fill Sand,Richardia spp.,Pusley,1,,3,,2,,,2,2,
+Jan,1,6,1-6,Fill Sand,Rumex hastatulus,Heartwing Sorrel,,,,,,,,,,
+Jan,1,6,1-6,Fill Sand,Sonchus asper,Bull Thistle,,,,,,,,,,
+Jan,1,7,1-7,Fill Sand,Bare Ground,Bare Ground,9,10,9,10,10,9,10,10,10,9
+Jan,1,7,1-7,Fill Sand,Cynodon dactylon,Bermudagrass,,,,,,,,,2,
+Jan,1,7,1-7,Fill Sand,Cyperus spp.,Nutsedge/Globesedge,3,2,,3,2,2,,,,1
+Jan,1,7,1-7,Fill Sand,Erigeron canadensis,Butterweed horseweed,2,,2,2,,,2,2,2,2
+Jan,1,7,1-7,Fill Sand,Gamochaeta spp.,Cudweed,,,,,,,,,,
+Jan,1,7,1-7,Fill Sand,Indigofera hirsuta,Hairy Indigo,,,,,,,,,,
+Jan,1,7,1-7,Fill Sand,Lactuca spp.,Canada Lettuce,,,1,,,,,,,
+Jan,1,7,1-7,Fill Sand,Oenothera laciniata,Evening Primrose,,,,,,3,,,,2
+Jan,1,7,1-7,Fill Sand,Oxalis corniculata,Creeping Woodsorrel,3,,,,,,,,,
+Jan,1,7,1-7,Fill Sand,Paspalum notatum,Bahiagrass,3,2,4,2,2,2,2,2,3,2
+Jan,1,7,1-7,Fill Sand,Paspalum setaceum,Thin Paspalum,,,,,,,,,,
+Jan,1,7,1-7,Fill Sand,Phyllanthus urinaria,Chamber bitter,,,,,,,,,,
+Jan,1,7,1-7,Fill Sand,Richardia spp.,Pusley,2,,,,3,4,2,2,2,4
+Jan,1,7,1-7,Fill Sand,Rumex hastatulus,Heartwing sorrel,,,,,,,,,,
+Jan,1,7,1-7,Fill Sand,Sonchus asper,Bull Thistle,,,,,,,,,,
+Jan,1,7,1-7,Fill Sand,Triodanis perfoliata,Clasping Venus,2,2,2,2,1,4,,3,2,2
+Jan,1,7,1-7,Fill Sand,Geranium carolinianum,Carolina Cranesbill,2,,,,,,,,,
+Jan,1,8,1-8,Fill Sand,Bare Ground,Bare Ground,10,9,9,10,10,10,10,10,9,10
+Jan,1,8,1-8,Fill Sand,Cynodon dactylon,Bermudagrass,,1,,,3,2,,,,
+Jan,1,8,1-8,Fill Sand,Cyperus spp.,Nutsedge/Globesedge,,,2,2,,,2,,,
+Jan,1,8,1-8,Fill Sand,Erigeron canadensis,Butterweed horseweed,2,,,,,,,,,
+Jan,1,8,1-8,Fill Sand,Gamochaeta spp.,Cudweed,,,,,2,,,,,
+Jan,1,8,1-8,Fill Sand,Indigofera hirsuta,Hairy Indigo,,,,,,,,,,
+Jan,1,8,1-8,Fill Sand,Lactuca spp.,Canada Lettuce,,,,,,,,,,
+Jan,1,8,1-8,Fill Sand,Oenothera laciniata,Evening Primrose,,,,3,2,,,3,,
+Jan,1,8,1-8,Fill Sand,Oxalis corniculata,Creeping Woodsorrel,,,,,,,,,,
+Jan,1,8,1-8,Fill Sand,Paspalum notatum,Bahiagrass,2,3,3,3,1,2,3,2,2,2
+Jan,1,8,1-8,Fill Sand,Paspalum setaceum,Thin Paspalum,,,,,,,,,,
+Jan,1,8,1-8,Fill Sand,Phyllanthus urinaria,Chamber bitter,,,,,,,,,,
+Jan,1,8,1-8,Fill Sand,Richardia spp.,Pusley,2,3,3,,2,,2,2,5,
+Jan,1,8,1-8,Fill Sand,Rumex hastatulus,Heartwing sorrel,,,,,,,,,,
+Jan,1,8,1-8,Fill Sand,Sonchus asper,Bull Thistle,,,,,,,,,,
+Jan,1,8,1-8,Fill Sand,Triodanis perfoliata,Clasping Venus,4,3,6,,3,2,2,,,
+Jan,1,9,1-9,Control,Bare Ground,Bare Ground,9,9,9,9,9,9,9,9,9,8
+Jan,1,9,1-9,Control,Cynodon dactylon,Bermudagrass,,,,,2,,2,,1,
+Jan,1,9,1-9,Control,Cyperus spp.,Nutsedge/Globesedge,,,,,,,,,,
+Jan,1,9,1-9,Control,Erigeron canadensis,Butterweed Horseweed,,1,2,,,,,,1,1
+Jan,1,9,1-9,Control,Gamochaeta spp.,Cudweed,3,1,1,3,,,,,,
+Jan,1,9,1-9,Control,Indigofera hirsuta,Hairy Indigo,,,,,,,,,,
+Jan,1,9,1-9,Control,Lactuca spp.,Canada Lettuce,,,,,,,,,,
+Jan,1,9,1-9,Control,Linaria canadensis,Toadflax,,,,,,,,,3,
+Jan,1,9,1-9,Control,Oenothera laciniata,Evening Primrose,2,3,2,4,3,2,4,6,4,6
+Jan,1,9,1-9,Control,Oxalis corniculata,Creeping Woodsorrel,,,,,,,,,,
+Jan,1,9,1-9,Control,Paspalum notatum,Bahiagrass,4,2,,2,2,1,1,2,1,
+Jan,1,9,1-9,Control,Paspalum setaceum,Thin Paspalum,,,,,,,,,,
+Jan,1,9,1-9,Control,Phyllanthus urinaria,Chamber Bitter,,,,,,,,,,
+Jan,1,9,1-9,Control,Richardia spp.,Pusley,,2,,2,,2,,,3,2
+Jan,1,9,1-9,Control,Rumex hastatulus,Heartwing Sorrel,,,,,,,,,,
+Jan,1,9,1-9,Control,Sonchus asper,Bull Thistle,,,,,,,,,,
+Jan,1,9,1-9,Control,Triodanis perfoliata,Clasping Venus,,1,2,4,1,2,,1,3,1
+Jan,1,10,1-10,Preemergent,Bare Ground,Bare Ground,9,9,9,10,9,9,9,9,10,9
+Jan,1,10,1-10,Preemergent,Cynodon dactylon,Bermudagrass,2,,,,,,,3,,
+Jan,1,10,1-10,Preemergent,Cyperus spp.,Nutsedge/Globesedge,,,,,,,,,,
+Jan,1,10,1-10,Preemergent,Erigeron canadensis,Butterweed Horseweed,,,,,,,,,,
+Jan,1,10,1-10,Preemergent,Gamochaeta spp.,Cudweed,,,,,,,,,,
+Jan,1,10,1-10,Preemergent,Indigofera hirsuta,Hairy Indigo,,,,,,,,,,
+Jan,1,10,1-10,Preemergent,Lactuca spp.,Canada Lettuce,,,,,,,,,,
+Jan,1,10,1-10,Preemergent,Oenothera laciniata,Evening Primrose,,2,,2,,,,,2,
+Jan,1,10,1-10,Preemergent,Oxalis corniculata,Creeping Woodsorrel,,,,,,,,,,
+Jan,1,10,1-10,Preemergent,Paspalum notatum,Bahiagrass,,,,1,,,,,,2
+Jan,1,10,1-10,Preemergent,Paspalum setaceum,Thin Paspalum,,,,,,,,,,
+Jan,1,10,1-10,Preemergent,Phyllanthus urinaria,Chamber Bitter,,,,,,,,,,
+Jan,1,10,1-10,Preemergent,Richardia spp.,Pusley,,,,1,,,,,1,
+Jan,1,10,1-10,Preemergent,Rumex hastatulus,Heartwing Sorrel,,,,,,,,,,
+Jan,1,10,1-10,Preemergent,Sonchus asper,Bull Thistle,,,,,,,,,,
+Jan,1,10,1-10,Preemergent,Triodanis perfoliata,Clasping Venus,,2,1,2,2,2,2,,1,2
+Jan,1,11,1-11,Soil Inversion,Bare Ground,Bare Ground,8,8,8,9,8,9,8,8,9,9
+Jan,1,11,1-11,Soil Inversion,Cynodon dactylon,Bermudagrass,1,2,,1,,,,,1,
+Jan,1,11,1-11,Soil Inversion,Cyperus spp.,Nutsedge/Globesedge,3,1,3,2,3,2,2,4,2,3
+Jan,1,11,1-11,Soil Inversion,Erigeron canadensis,Butterweed Horseweed,,,,,,,,,,
+Jan,1,11,1-11,Soil Inversion,Gamochaeta spp.,Cudweed,3,,4,2,3,3,5,3,4,4
+Jan,1,11,1-11,Soil Inversion,Indigofera hirsuta,Hairy Indigo,,,,,,,,,,
+Jan,1,11,1-11,Soil Inversion,Lactuca spp.,Canada Lettuce,,,,,,,,,,
+Jan,1,11,1-11,Soil Inversion,Oenothera laciniata,Evening Primrose,5,5,5,4,4,4,4,4,4,
+Jan,1,11,1-11,Soil Inversion,Oxalis corniculata,Creeping Woodsorrel,,,,,,,,,,
+Jan,1,11,1-11,Soil Inversion,Paspalum notatum,Bahiagrass,1,,,,2,,,2,,
+Jan,1,11,1-11,Soil Inversion,Paspalum setaceum,Thin Paspalum,,,,,,,,,,
+Jan,1,11,1-11,Soil Inversion,Phyllanthus urinaria,Chamber Bitter,,,,,,,,,,
+Jan,1,11,1-11,Soil Inversion,Richardia spp.,Pusley,4,3,3,1,5,,4,4,3,2
+Jan,1,11,1-11,Soil Inversion,Rumex hastatulus,Heartwing Sorrel,,,,,,,,,,
+Jan,1,11,1-11,Soil Inversion,Sonchus asper,Bull Thistle,,,,,,,,,,
+Jan,1,11,1-11,Soil Inversion,Triodanis perfoliata,Clasping Venus,6,5,5,4,4,4,5,5,4,2
+Jan,1,12,1-12,Preemergent,Bare Ground,Bare Ground,9,10,9,10,9,9,10,10,9,9
+Jan,1,12,1-12,Preemergent,Cynodon dactylon,Bermudagrass,,,,,,,,,,
+Jan,1,12,1-12,Preemergent,Cyperus spp.,Nutsedge/Globesedge,,,,,,,,,,
+Jan,1,12,1-12,Preemergent,Erigeron canadensis,Butterweed Horseweed,,,,,,,,,,
+Jan,1,12,1-12,Preemergent,Gamochaeta spp.,Cudweed,,,,,2,,,,,
+Jan,1,12,1-12,Preemergent,Indigofera hirsuta,Hairy Indigo,,,,,,,,,,
+Jan,1,12,1-12,Preemergent,Lactuca spp.,Canada Lettuce,,,,,,,,,,
+Jan,1,12,1-12,Preemergent,Oenothera laciniata,Evening Primrose,,,2,2,,2,,,,
+Jan,1,12,1-12,Preemergent,Oxalis corniculata,Creeping Woodsorrel,,,,,,,,,,
+Jan,1,12,1-12,Preemergent,Paspalum notatum,Bahiagrass,,,,,,,,,,
+Jan,1,12,1-12,Preemergent,Paspalum setaceum,Thin Paspalum,,,,,,,,,,
+Jan,1,12,1-12,Preemergent,Phyllanthus urinaria,Chamber Bitter,,,,,,,,,,
+Jan,1,12,1-12,Preemergent,Richardia spp.,Pusley,1,,,2,2,2,,,2,2
+Jan,1,12,1-12,Preemergent,Rumex hastatulus,Heartwing Sorrel,,,,,,,,,,
+Jan,1,12,1-12,Preemergent,Sonchus asper,Bull Thistle,,,,,,,,,,
+Jan,2,1,2-1,Soil Inversion,Bare Ground,Bare Ground,8,8,8,7,9,9,9,9,8,9
+Jan,2,1,2-1,Soil Inversion,Cynodon dactylon,Bermudagrass,2,,1,,2,1,2,,1,
+Jan,2,1,2-1,Soil Inversion,Cyperus spp.,Nutsedge/globesedge,3,3,2,2,2,2,3,3,2,2
+Jan,2,1,2-1,Soil Inversion,Erigeron canadensis,Butterweed horseweed,,,3,,,,,,,2
+Jan,2,1,2-1,Soil Inversion,Gamochaeta spp.,Cudweed,4,4,5,4,2,2,2,2,,
+Jan,2,1,2-1,Soil Inversion,Indigofera hirsuta,Hairy indigo,,,,,,,,,,
+Jan,2,1,2-1,Soil Inversion,Lepidium virginicum,Virginia pepperweed,,,,,,1,,,,
+Jan,2,1,2-1,Soil Inversion,Linaria canadensis,Toadflax,4,4,4,4,4,4,2,5,5,3
+Jan,2,1,2-1,Soil Inversion,Oenothera laciniata,Evening primrose,5,5,4,6,3,5,,3,5,5
+Jan,2,1,2-1,Soil Inversion,Oxalis corniculata,Creeping woodsorrel,,,,,,,,,,
+Jan,2,1,2-1,Soil Inversion,Paspalum notatum,Bahiagrass,,,,,,,,,,
+Jan,2,1,2-1,Soil Inversion,Phyllanthus urinaria,Chamber bitter,,,,,,,,,,
+Jan,2,1,2-1,Soil Inversion,Portulaca spp.,Purslane,2,2,3,3,2,2,,2,2,2
+Jan,2,1,2-1,Soil Inversion,Richardia spp.,Pusley,6,5,6,5,4,3,4,5,4,4
+Jan,2,1,2-1,Soil Inversion,Rumex hastatulus,Heartwing sorrel,,,,,,,,,,
+Jan,2,1,2-1,Soil Inversion,Sonchus asper,Bull Thistle,,,,,,,,,,
+Jan,2,1,2-1,Soil Inversion,Triodanis perfoliata,Clasping Venus,2,,1,,,,1,,2,1
+Jan,2,2,2-2,Control,Bare Ground,Bare Ground,9,9,9,8,9,9,9,8,8,9
+Jan,2,2,2-2,Control,Cynodon dactylon,Bermudagrass,,,2,2,3,2,2,,2,3
+Jan,2,2,2-2,Control,Cyperus spp.,Nutsedge/globesedge,,,,2,2,,2,,2,2
+Jan,2,2,2-2,Control,Erigeron canadensis,Butterweed horseweed,2,,2,,,,3,2,2,
+Jan,2,2,2-2,Control,Gamochaeta spp.,Cudweed,,,2,2,2,2,,4,2,2
+Jan,2,2,2-2,Control,Indigofera hirsuta,Hairy indigo,,,,,,,,,,
+Jan,2,2,2-2,Control,Oenothera laciniata,Evening primrose,4,5,4,5,5,5,5,6,7,5
+Jan,2,2,2-2,Control,Oxalis corniculata,Creeping woodsorrel,,,,,,,,,,
+Jan,2,2,2-2,Control,Paspalum notatum,Bahiagrass,5,4,5,4,4,3,3,2,2,4
+Jan,2,2,2-2,Control,Phyllanthus urinaria,Chamber bitter,,,,,,,,,,
+Jan,2,2,2-2,Control,Richardia spp.,Pusley,,3,2,,2,2,2,,,
+Jan,2,2,2-2,Control,Rumex hastatulus,Heartwing sorrel,2,,,,,,,,,
+Jan,2,2,2-2,Control,Sonchus asper,Bull Thistle,,,,,,,,,,
+Jan,2,3,2-3,Soil Inversion,Bare Ground,Bare Ground,9,9,8,9,9,7,6,7,6,6
+Jan,2,3,2-3,Soil Inversion,Cynodon dactylon,Bermudagrass,2,,2,,2,2,2,,,
+Jan,2,3,2-3,Soil Inversion,Cyperus spp.,Nutsedge/globesedge,2,3,2,2,3,2,2,3,3,2
+Jan,2,3,2-3,Soil Inversion,Erigeron canadensis,Butterweed horseweed,,,,,3,2,,,,
+Jan,2,3,2-3,Soil Inversion,Gamochaeta spp.,Cudweed,,2,3,2,2,,2,3,3,3
+Jan,2,3,2-3,Soil Inversion,Indigofera hirsuta,Hairy indigo,,,,,,,,,,
+Jan,2,3,2-3,Soil Inversion,Oenothera laciniata,Evening primrose,3,4,6,5,4,7,8,6,7,7
+Jan,2,3,2-3,Soil Inversion,Oxalis corniculata,Creeping woodsorrel,,,,,,,,,,
+Jan,2,3,2-3,Soil Inversion,Paspalum notatum,Bahiagrass,2,2,2,2,2,,,,,
+Jan,2,3,2-3,Soil Inversion,Phyllanthus urinaria,Chamber bitter,,,,,,,,,,
+Jan,2,3,2-3,Soil Inversion,Richardia spp.,Pusley,5,5,5,4,3,5,4,6,7,7
+Jan,2,3,2-3,Soil Inversion,Rumex hastatulus,Heartwing sorrel,,,,2,,,2,3,2,
+Jan,2,3,2-3,Soil Inversion,Sonchus asper,Bull Thistle,,,,,,,,,,
+Jan,2,3,2-3,Soil Inversion,Triodanis perfoliata,Clasping Venus,2,,,2,1,2,,,,
+Jan,2,4,2-4,Preemergent,Bare Ground,Bare Ground,10,10,10,10,9,10,10,10,10,10
+Jan,2,4,2-4,Preemergent,Cynodon dactylon,Bermudagrass,,2,,,6,3,2,2,2,2
+Jan,2,4,2-4,Preemergent,Cyperus spp.,Nutsedge/globesedge,,,,,,,,,,
+Jan,2,4,2-4,Preemergent,Erigeron canadensis,Butterweed horseweed,,,2,,2,,,,,
+Jan,2,4,2-4,Preemergent,Gamochaeta spp.,Cudweed,,,,,,,,,,
+Jan,2,4,2-4,Preemergent,Indigofera hirsuta,Hairy indigo,,,,,,,,,,
+Jan,2,4,2-4,Preemergent,Oenothera laciniata,Evening primrose,1,,2,,,,,,,1
+Jan,2,4,2-4,Preemergent,Oxalis corniculata,Creeping woodsorrel,,,,,,,,,,
+Jan,2,4,2-4,Preemergent,Paspalum notatum,Bahiagrass,2,2,2,1,2,2,2,3,2,2
+Jan,2,4,2-4,Preemergent,Phyllanthus urinaria,Chamber bitter,,,,,,,,,,
+Jan,2,4,2-4,Preemergent,Richardia spp.,Pusley,,,,,,,2,,,
+Jan,2,4,2-4,Preemergent,Rumex hastatulus,Heartwing sorrel,,,,,,,2,,,
+Jan,2,4,2-4,Preemergent,Sonchus asper,Bull Thistle,,,,,,,,,,
+Jan,2,5,2-5,Preemergent,Bare Ground,Bare Ground,10,10,10,10,10,10,10,10,10,10
+Jan,2,5,2-5,Preemergent,Cynodon dactylon,Bermudagrass,2,2,,2,2,2,2,2,2,2
+Jan,2,5,2-5,Preemergent,Cyperus spp.,Nutsedge/globesedge,,,2,,,,,,,
+Jan,2,5,2-5,Preemergent,Erigeron canadensis,Butterweed horseweed,,,,,1,,,,,
+Jan,2,5,2-5,Preemergent,Gamochaeta spp.,Cudweed,,,,,,,,,,
+Jan,2,5,2-5,Preemergent,Indigofera hirsuta,Hairy indigo,,,,,,,,,,
+Jan,2,5,2-5,Preemergent,Oenothera laciniata,Evening primrose,,2,1,,1,,1,,,1
+Jan,2,5,2-5,Preemergent,Oxalis corniculata,Creeping woodsorrel,,,,,,,,,,
+Jan,2,5,2-5,Preemergent,Paspalum notatum,Bahiagrass,2,2,2,2,2,2,2,2,2,2
+Jan,2,5,2-5,Preemergent,Phyllanthus urinaria,Chamber bitter,,,,,,,,,,
+Jan,2,5,2-5,Preemergent,Richardia spp.,Pusley,,,,,,,,,,
+Jan,2,5,2-5,Preemergent,Rumex hastatulus,Heartwing sorrel,,,,,,,,,,
+Jan,2,5,2-5,Preemergent,Sonchus asper,Bull Thistle,,,,,,,,,,
+Jan,2,6,2-6,Fill Sand,Bare Ground,Bare Ground,10,10,10,9,10,9,10,9,10,9
+Jan,2,6,2-6,Fill Sand,Cynodon dactylon,Bermudagrass,2,2,,2,2,2,,,2,
+Jan,2,6,2-6,Fill Sand,Cyperus spp.,Nutsedge/globesedge,,2,2,,2,,2,,,2
+Jan,2,6,2-6,Fill Sand,Erigeron canadensis,Butterweed horseweed,,,,,,,,,,
+Jan,2,6,2-6,Fill Sand,Gamochaeta spp.,Cudweed,,,,,,,,,,
+Jan,2,6,2-6,Fill Sand,Indigofera hirsuta,Hairy indigo,,,,,,,,,,
+Jan,2,6,2-6,Fill Sand,Oenothera laciniata,Evening primrose,,,,,,5,,4,2,5
+Jan,2,6,2-6,Fill Sand,Oxalis corniculata,Creeping woodsorrel,,,,,,,,,,
+Jan,2,6,2-6,Fill Sand,Paspalum notatum,Bahiagrass,2,2,3,2,3,2,2,2,3,2
+Jan,2,6,2-6,Fill Sand,Phyllanthus urinaria,Chamber bitter,,,,,,,,,,
+Jan,2,6,2-6,Fill Sand,Richardia spp.,Pusley,2,,,4,3,5,2,4,3,5
+Jan,2,6,2-6,Fill Sand,Rumex hastatulus,Heartwing sorrel,,,,,,,,,,3
+Jan,2,6,2-6,Fill Sand,Sonchus asper,Bull Thistle,,,,,,,,,,
+Jan,2,7,2-7,Control,Bare Ground,Bare Ground,9,9,9,9,9,9,9,9,9,9
+Jan,2,7,2-7,Control,Cynodon dactylon,Bermudagrass,,,2,3,,2,2,2,2,2
+Jan,2,7,2-7,Control,Cyperus spp.,Nutsedge/globesedge,2,3,2,,,,,2,,
+Jan,2,7,2-7,Control,Erigeron canadensis,Butterweed horseweed,2,2,2,3,,,2,2,2,
+Jan,2,7,2-7,Control,Gamochaeta spp.,Cudweed,2,1,1,4,2,3,4,2,4,2
+Jan,2,7,2-7,Control,Indigofera hirsuta,Hairy indigo,,,,,,,,,,
+Jan,2,7,2-7,Control,Oenothera laciniata,Evening primrose,5,5,4,5,5,6,5,4,4,6
+Jan,2,7,2-7,Control,Oxalis corniculata,Creeping woodsorrel,,,,,,,,,,
+Jan,2,7,2-7,Control,Paspalum notatum,Bahiagrass,2,2,4,3,4,,2,4,2,4
+Jan,2,7,2-7,Control,Phyllanthus urinaria,Chamber bitter,,,,,,,,,,
+Jan,2,7,2-7,Control,Richardia spp.,Pusley,2,2,2,2,,2,,2,,1
+Jan,2,7,2-7,Control,Rumex hastatulus,Heartwing sorrel,,,,,,,,,,
+Jan,2,7,2-7,Control,Sonchus asper,Bull Thistle,,,,,,,,,,
+Jan,2,8,2-8,Fill Sand,Bare Ground,Bare Ground,9,10,10,10,10,9,10,10,10,10
+Jan,2,8,2-8,Fill Sand,Cynodon dactylon,Bermudagrass,2,2,2,2,2,2,2,2,2,2
+Jan,2,8,2-8,Fill Sand,Cyperus spp.,Nutsedge/globesedge,2,2,3,2,2,2,2,2,,2
+Jan,2,8,2-8,Fill Sand,Erigeron canadensis,Butterweed horseweed,2,,1,1,,,,2,,2
+Jan,2,8,2-8,Fill Sand,Gamochaeta spp.,Cudweed,4,,,,,,,,,
+Jan,2,8,2-8,Fill Sand,Indigofera hirsuta,Hairy indigo,,,,,,,,,,
+Jan,2,8,2-8,Fill Sand,Oenothera laciniata,Evening primrose,4,,,3,,,,,,
+Jan,2,8,2-8,Fill Sand,Oxalis corniculata,Creeping woodsorrel,,,,,,,,,,
+Jan,2,8,2-8,Fill Sand,Paspalum notatum,Bahiagrass,2,2,2,3,,4,3,2,2,3
+Jan,2,8,2-8,Fill Sand,Phyllanthus urinaria,Chamber bitter,,,,,,,,,,
+Jan,2,8,2-8,Fill Sand,Richardia spp.,Pusley,2,,2,,,,,2,2,
+Jan,2,8,2-8,Fill Sand,Rumex hastatulus,Heartwing sorrel,,,,,,,,,,
+Jan,2,8,2-8,Fill Sand,Sonchus asper,Bull Thistle,,,,,,,,,,
+Jan,2,9,2-9,Control,Bare Ground,Bare Ground,8,8,9,9,9,9,9,9,9,8
+Jan,2,9,2-9,Control,Cynodon dactylon,Bermudagrass,2,2,2,,,2,2,,2,
+Jan,2,9,2-9,Control,Cyperus spp.,Nutsedge/globesedge,2,2,,2,2,,,,2,2
+Jan,2,9,2-9,Control,Erigeron canadensis,Butterweed horseweed,2,2,,2,2,2,2,,2,
+Jan,2,9,2-9,Control,Gamochaeta spp.,Cudweed,2,3,2,,1,4,5,4,4,2
+Jan,2,9,2-9,Control,Indigofera hirsuta,Hairy indigo,,,,,,,,,,
+Jan,2,9,2-9,Control,Oenothera laciniata,Evening primrose,6,7,5,6,6,6,5,4,5,6
+Jan,2,9,2-9,Control,Oxalis corniculata,Creeping woodsorrel,,,,,,,,,,
+Jan,2,9,2-9,Control,Paspalum notatum,Bahiagrass,,,2,2,2,,3,3,3,3
+Jan,2,9,2-9,Control,Phyllanthus urinaria,Chamber bitter,,,,,,,,,,
+Jan,2,9,2-9,Control,Richardia spp.,Pusley,3,2,2,2,2,2,5,4,3,4
+Jan,2,9,2-9,Control,Rumex hastatulus,Heartwing sorrel,,,,,2,,,,,
+Jan,2,9,2-9,Control,Sonchus asper,Bull Thistle,,,,,,,,,,
+Jan,2,10,2-10,Fill Sand,Bare Ground,Bare Ground,10,10,10,10,10,10,10,9,9,10
+Jan,2,10,2-10,Fill Sand,Cynodon dactylon,Bermudagrass,,,1,,,2,2,3,2,2
+Jan,2,10,2-10,Fill Sand,Cyperus spp.,Nutsedge/globesedge,2,2,2,2,2,2,2,2,2,2
+Jan,2,10,2-10,Fill Sand,Erigeron canadensis,Butterweed horseweed,,2,,,,2,,2,,
+Jan,2,10,2-10,Fill Sand,Gamochaeta spp.,Cudweed,,,,,,,,,,
+Jan,2,10,2-10,Fill Sand,Indigofera hirsuta,Hairy indigo,,,,,,,,,,
+Jan,2,10,2-10,Fill Sand,Oenothera laciniata,Evening primrose,,,,,,,2,2,3,
+Jan,2,10,2-10,Fill Sand,Oxalis corniculata,Creeping woodsorrel,,,,,,,,,,
+Jan,2,10,2-10,Fill Sand,Paspalum notatum,Bahiagrass,2,2,2,2,2,2,2,4,4,2
+Jan,2,10,2-10,Fill Sand,Phyllanthus urinaria,Chamber bitter,,,,,,,,,,
+Jan,2,10,2-10,Fill Sand,Richardia spp.,Pusley,2,2,2,,,,2,2,2,
+Jan,2,10,2-10,Fill Sand,Rumex hastatulus,Heartwing sorrel,,,,,,,,,,
+Jan,2,10,2-10,Fill Sand,Sonchus asper,Bull Thistle,,,,,,,,,,
+Jan,2,11,2-11,Soil Inversion,Bare Ground,Bare Ground,10,9,9,10,9,9,9,9,10,9
+Jan,2,11,2-11,Soil Inversion,Cynodon dactylon,Bermudagrass,,,2,,,,,,,
+Jan,2,11,2-11,Soil Inversion,Cyperus spp.,Nutsedge/globesedge,3,4,3,4,4,4,4,3,2,3
+Jan,2,11,2-11,Soil Inversion,Erigeron canadensis,Butterweed horseweed,,,,,,,,,,
+Jan,2,11,2-11,Soil Inversion,Gamochaeta spp.,Cudweed,2,1,,,,4,3,,,2
+Jan,2,11,2-11,Soil Inversion,Indigofera hirsuta,Hairy indigo,,,,,,,,,,
+Jan,2,11,2-11,Soil Inversion,Oenothera laciniata,Evening primrose,3,5,4,4,5,6,4,,2,4
+Jan,2,11,2-11,Soil Inversion,Oxalis corniculata,Creeping woodsorrel,,,,,,,,,,
+Jan,2,11,2-11,Soil Inversion,Paspalum notatum,Bahiagrass,1,,,,,2,,,,
+Jan,2,11,2-11,Soil Inversion,Phyllanthus urinaria,Chamber bitter,,,,,,,,,,
+Jan,2,11,2-11,Soil Inversion,Richardia spp.,Pusley,3,3,3,3,2,2,2,5,2,2
+Jan,2,11,2-11,Soil Inversion,Rumex hastatulus,Heartwing sorrel,,,,,,,,,,
+Jan,2,11,2-11,Soil Inversion,Sonchus asper,Bull Thistle,,,,,,,,,,
+Jan,2,12,2-12,Preemergent,Bare Ground,Bare Ground,9,10,10,10,10,9,10,10,10,10
+Jan,2,12,2-12,Preemergent,Cynodon dactylon,Bermudagrass,2,2,2,2,2,2,2,2,2,
+Jan,2,12,2-12,Preemergent,Cyperus spp.,Nutsedge/globesedge,,,,2,,,,,,
+Jan,2,12,2-12,Preemergent,Erigeron canadensis,Butterweed horseweed,,,,,,,2,,2,
+Jan,2,12,2-12,Preemergent,Gamochaeta spp.,Cudweed,,,,,,,,,,
+Jan,2,12,2-12,Preemergent,Indigofera hirsuta,Hairy indigo,,,,,,,,,,
+Jan,2,12,2-12,Preemergent,Oenothera laciniata,Evening primrose,2,1,,,,,,2,2,
+Jan,2,12,2-12,Preemergent,Oxalis corniculata,Creeping woodsorrel,,,,,,,,,,
+Jan,2,12,2-12,Preemergent,Paspalum notatum,Bahiagrass,2,1,2,2,2,2,2,2,2,3
+Jan,2,12,2-12,Preemergent,Phyllanthus urinaria,Chamber bitter,,,,,,,,,,
+Jan,2,12,2-12,Preemergent,Richardia spp.,Pusley,2,,,,,,2,,,2
+Jan,2,12,2-12,Preemergent,Rumex hastatulus,Heartwing sorrel,,,,,,,,,,
+Jan,2,12,2-12,Preemergent,Sonchus asper,Bull Thistle,,,,,,,,,,
+November,1,1,1-1,Soil Inversion,Bare Ground,Bare Ground,10,10,10,10,10,10,10,10,10,10
+November,1,1,1-1,Soil Inversion,Cynodon dactylon,Bermudagrass,,,,,,,,,,
+November,1,1,1-1,Soil Inversion,Cyperus spp.,Nutsedge/Globesedge,3,2,2,2,2,4,4,2,3,4
+November,1,1,1-1,Soil Inversion,Indigofera hirsuta,Hairy Indigo,,,2,2,2,1,1,2,3,3
+November,1,1,1-1,Soil Inversion,Paspalum notatum,Bahiagrass,,,,,,,,,,
+November,1,1,1-1,Soil Inversion,Richardia spp.,Pusley,5,2,4,5,4,7,6,6,4,4
+November,1,2,1-2,Control,Bare Ground,Bare Ground,10,10,10,10,10,10,10,10,10,10
+November,1,2,1-2,Control,Cynodon dactylon,Bermudagrass,,,,,,,,,,
+November,1,2,1-2,Control,Cyperus spp.,Nutsedge/Globesedge,2,3,6,4,4,5,5,,2,4
+November,1,2,1-2,Control,Indigofera hirsuta,Hairy Indigo,,,,,,,,,,
+November,1,2,1-2,Control,Paspalum notatum,Bahiagrass,,,,,,,,,,
+November,1,2,1-2,Control,Richardia spp.,Pusley,6,6,5,4,1,,1,3,2,4
+November,1,3,1-3,Soil Inversion,Bare Ground,Bare Ground,10,10,10,10,10,10,10,10,10,10
+November,1,3,1-3,Soil Inversion,Cynodon dactylon,Bermudagrass,,,,,,,,,,
+November,1,3,1-3,Soil Inversion,Cyperus spp.,Nutsedge/Globesedge,,1,3,1,2,2,2,2,4,2
+November,1,3,1-3,Soil Inversion,Indigofera hirsuta,Hairy Indigo,,,,,,,,,,
+November,1,3,1-3,Soil Inversion,Paspalum notatum,Bahiagrass,,,,,,,,,,
+November,1,3,1-3,Soil Inversion,Richardia spp.,Pusley,1,1,3,2,1,3,3,3,4,3
+November,1,4,1-4,Control,Bare Ground,Bare Ground,10,10,10,10,10,10,10,10,10,10
+November,1,4,1-4,Control,Cynodon dactylon,Bermudagrass,,4,6,,,,3,2,,
+November,1,4,1-4,Control,Cyperus spp.,Nutsedge/Globesedge,4,,3,3,,1,,,,
+November,1,4,1-4,Control,Indigofera hirsuta,Hairy Indigo,1,1,2,2,,,2,2,1,2
+November,1,4,1-4,Control,Oenothera laciniata,Evening primrose,4,,,,1,2,3,5,3,
+November,1,4,1-4,Control,Oxalis corniculata,Creeping woodsorrel,5,4,1,3,,,,,,
+November,1,4,1-4,Control,Paspalum notatum,Bahiagrass,,,,,1,1,,1,,1
+November,1,4,1-4,Control,Richardia spp.,Pusley,,2,5,,5,4,4,4,4,3
+November,1,5,1-5,Preemergent,Bare Ground,Bare Ground,10,10,10,10,10,10,10,10,10,10
+November,1,5,1-5,Preemergent,Cynodon dactylon,Bermudagrass,,3,4,1,,,,2,,
+November,1,5,1-5,Preemergent,Cyperus spp.,Nutsedge/Globesedge,,,,,,,,,,
+November,1,5,1-5,Preemergent,Indigofera hirsuta,Hairy Indigo,2,2,1,,,,2,,,1
+November,1,5,1-5,Preemergent,Paspalum notatum,Bahiagrass,2,1,2,,,2,2,2,1,2
+November,1,5,1-5,Preemergent,Richardia spp.,Pusley,,,,,,,,,,
+November,1,6,1-6,Fill Sand,Bare Ground,Bare Ground,10,10,10,10,10,10,10,10,10,10
+November,1,6,1-6,Fill Sand,Cynodon dactylon,Bermudagrass,,,2,,,,,,,
+November,1,6,1-6,Fill Sand,Cyperus spp.,Nutsedge/Globesedge,,,,,4,,,,4,
+November,1,6,1-6,Fill Sand,Indigofera hirsuta,Hairy Indigo,,,,,,,,,,
+November,1,6,1-6,Fill Sand,Paspalum notatum,Bahiagrass,1,1,2,2,2,2,2,2,2,2
+November,1,6,1-6,Fill Sand,Richardia spp.,Pusley,2,,1,,,,,,1,
+November,1,7,1-7,Fill Sand,Bare Ground,Bare Ground,10,10,10,10,10,10,10,10,10,10
+November,1,7,1-7,Fill Sand,Cynodon dactylon,Bermudagrass,,,,,,,,,,
+November,1,7,1-7,Fill Sand,Cyperus spp.,Nutsedge/Globesedge,4,2,2,1,1,3,1,2,2,1
+November,1,7,1-7,Fill Sand,Indigofera hirsuta,Hairy Indigo,,,,,,,,,,
+November,1,7,1-7,Fill Sand,Paspalum notatum,Bahiagrass,,,,,,,,,,
+November,1,7,1-7,Fill Sand,Richardia spp.,Pusley,1,,,,,3,,,,1
+November,1,8,1-8,Fill Sand,Bare Ground,Bare Ground,10,10,10,10,10,10,10,10,10,10
+November,1,8,1-8,Fill Sand,Cynodon dactylon,Bermudagrass,,,,,,,,,,
+November,1,8,1-8,Fill Sand,Cyperus spp.,Nutsedge/Globesedge,2,2,2,1,1,1,4,2,3,4
+November,1,8,1-8,Fill Sand,Indigofera hirsuta,Hairy Indigo,,,,,,,,,,
+November,1,8,1-8,Fill Sand,Paspalum notatum,Bahiagrass,,,,,,,,,,
+November,1,8,1-8,Fill Sand,Richardia spp.,Pusley,,2,1,,1,,,1,2,
+November,1,9,1-9,Control,Bare Ground,Bare Ground,9,10,10,10,10,10,10,10,10,10
+November,1,9,1-9,Control,Cynodon dactylon,Bermudagrass,,,,,,,,,,
+November,1,9,1-9,Control,Cyperus spp.,Nutsedge/Globesedge,6,1,3,1,1,1,,2,2,1
+November,1,9,1-9,Control,Indigofera hirsuta,Hairy Indigo,,,,,,,,,,
+November,1,9,1-9,Control,Paspalum notatum,Bahiagrass,,,,,,,,,,
+November,1,9,1-9,Control,Richardia spp.,Pusley,,2,,1,3,4,,2,2,1
+November,1,10,1-10,Preemergent,Bare Ground,Bare Ground,10,10,10,10,10,10,10,10,10,10
+November,1,10,1-10,Preemergent,Cynodon dactylon,Bermudagrass,,,,,,,,,,
+November,1,10,1-10,Preemergent,Cyperus spp.,Nutsedge/Globesedge,,,1,,2,,1,,2,
+November,1,10,1-10,Preemergent,Indigofera hirsuta,Hairy Indigo,,,,,,,,,,
+November,1,10,1-10,Preemergent,Paspalum notatum,Bahiagrass,,,,,,,,,,
+November,1,10,1-10,Preemergent,Richardia spp.,Pusley,,,2,,,,,,,
+November,1,11,1-11,Soil Inversion,Bare Ground,Bare Ground,10,10,10,10,10,10,10,10,10,10
+November,1,11,1-11,Soil Inversion,Cynodon dactylon,Bermudagrass,,,,,,,,,,
+November,1,11,1-11,Soil Inversion,Cyperus spp.,Nutsedge/Globesedge,1,,2,3,,1,4,2,5,1
+November,1,11,1-11,Soil Inversion,Indigofera hirsuta,Hairy Indigo,,,,,,,,,,
+November,1,11,1-11,Soil Inversion,Paspalum notatum,Bahiagrass,,,,,,,,,,
+November,1,11,1-11,Soil Inversion,Richardia spp.,Pusley,3,2,1,1,3,1,1,1,,1
+November,1,12,1-12,Preemergent,Bare Ground,Bare Ground,10,10,10,10,10,10,10,10,10,10
+November,1,12,1-12,Preemergent,Cynodon dactylon,Bermudagrass,,,,,,,,,,
+November,1,12,1-12,Preemergent,Cyperus spp.,Nutsedge/Globesedge,1,1,,1,1,,,,,
+November,1,12,1-12,Preemergent,Indigofera hirsuta,Hairy Indigo,,,,,,,,,,
+November,1,12,1-12,Preemergent,Paspalum notatum,Bahiagrass,,,,,,,,,,
+November,1,12,1-12,Preemergent,Richardia spp.,Pusley,,,,1,,1,,,1,
+November,2,1,2-1,Soil Inversion,Bare Ground,Bare Ground,10,10,10,10,10,10,10,10,10,10
+November,2,1,2-1,Soil Inversion,Cynodon dactylon,Bermudagrass,,,,,,,,,,
+November,2,1,2-1,Soil Inversion,Cyperus spp.,Nutsedge/Globesedge,6,5,4,3,6,7,7,6,3,2
+November,2,1,2-1,Soil Inversion,Indigofera hirsuta,Hairy Indigo,2,,1,,,,,,1,
+November,2,1,2-1,Soil Inversion,Paspalum notatum,Bahiagrass,,,,,,,,,,
+November,2,1,2-1,Soil Inversion,Richardia spp.,Pusley,3,3,4,3,2,2,2,1,1,1
+November,2,2,2-2,Control,Bare Ground,Bare Ground,10,10,10,10,10,10,10,10,10,10
+November,2,2,2-2,Control,Cynodon dactylon,Bermudagrass,,,,,4,2,3,,4,4
+November,2,2,2-2,Control,Cyperus spp.,Nutsedge/Globesedge,2,4,,,,,,,4,4
+November,2,2,2-2,Control,Indigofera hirsuta,Hairy Indigo,,,,,2,,,2,3,3
+November,2,2,2-2,Control,Oenothera laciniata,Evening primrose,2,2,3,1,,2,3,2,4,2
+November,2,2,2-2,Control,Paspalum notatum,Bahiagrass,2,2,2,2,2,2,2,2,2,2
+November,2,2,2-2,Control,Richardia spp.,Pusley,,4,2,2,3,,2,3,3,3
+November,2,3,2-3,Soil Inversion,Bare Ground,Bare Ground,10,10,10,10,10,10,10,10,10,10
+November,2,3,2-3,Soil Inversion,Cynodon dactylon,Bermudagrass,1,,,,1,2,,,,
+November,2,3,2-3,Soil Inversion,Cyperus spp.,Nutsedge/Globesedge,,2,,1,2,3,4,2,3,
+November,2,3,2-3,Soil Inversion,Indigofera hirsuta,Hairy Indigo,,,1,,,2,1,,,2
+November,2,3,2-3,Soil Inversion,Oenothera laciniata,Evening primrose,,1,1,2,2,4,5,3,4,3
+November,2,3,2-3,Soil Inversion,Paspalum notatum,Bahiagrass,2,,1,1,1,,,,1,
+November,2,3,2-3,Soil Inversion,Richardia spp.,Pusley,1,2,4,3,2,4,5,5,5,5
+November,2,4,2-4,Preemergent,Bare Ground,Bare Ground,10,10,10,10,10,10,10,10,10,10
+November,2,4,2-4,Preemergent,Cynodon dactylon,Bermudagrass,,,,,,,,,,
+November,2,4,2-4,Preemergent,Cyperus spp.,Nutsedge/Globesedge,4,2,2,2,2,5,7,5,4,5
+November,2,4,2-4,Preemergent,Indigofera hirsuta,Hairy Indigo,,,,,,,,,,
+November,2,4,2-4,Preemergent,Paspalum notatum,Bahiagrass,,,,,,,,,,
+November,2,4,2-4,Preemergent,Richardia spp.,Pusley,,,,,,,,,,
+November,2,5,2-5,Preemergent,Bare Ground,Bare Ground,10,10,10,10,10,10,10,10,10,10
+November,2,5,2-5,Preemergent,Cynodon dactylon,Bermudagrass,,,,,,,,,,
+November,2,5,2-5,Preemergent,Cyperus spp.,Nutsedge/Globesedge,2,3,3,2,2,3,2,3,3,2
+November,2,5,2-5,Preemergent,Indigofera hirsuta,Hairy Indigo,,,,,,,,,,
+November,2,5,2-5,Preemergent,Paspalum notatum,Bahiagrass,,,,,,,,,,
+November,2,5,2-5,Preemergent,Richardia spp.,Pusley,,,,,2,,3,1,,2
+November,2,6,2-6,Fill Sand,Bare Ground,Bare Ground,10,10,10,10,10,10,10,10,10,10
+November,2,6,2-6,Fill Sand,Cynodon dactylon,Bermudagrass,2,2,2,1,2,,2,,2,3
+November,2,6,2-6,Fill Sand,Cyperus spp.,Nutsedge/Globesedge,,,,,,,,,,
+November,2,6,2-6,Fill Sand,Indigofera hirsuta,Hairy Indigo,,,,,,,,,,
+November,2,6,2-6,Fill Sand,Paspalum notatum,Bahiagrass,2,,,2,1,2,,,1,2
+November,2,6,2-6,Fill Sand,Richardia spp.,Pusley,,,,,,,,,,
+November,2,7,2-7,Control,Bare Ground,Bare Ground,10,10,10,10,10,10,10,10,10,10
+November,2,7,2-7,Control,Cynodon dactylon,Bermudagrass,,,,,,,,,,
+November,2,7,2-7,Control,Cyperus spp.,Nutsedge/Globesedge,3,4,4,4,5,,4,4,3,6
+November,2,7,2-7,Control,Indigofera hirsuta,Hairy Indigo,,,,,,,,,,
+November,2,7,2-7,Control,Paspalum notatum,Bahiagrass,,,,,,,,,,
+November,2,7,2-7,Control,Richardia spp.,Pusley,2,,2,2,,3,,2,1,1
+November,2,8,2-8,Fill Sand,Bare Ground,Bare Ground,10,10,10,10,10,10,10,10,10,10
+November,2,8,2-8,Fill Sand,Cynodon dactylon,Bermudagrass,,,,,,,,,,
+November,2,8,2-8,Fill Sand,Cyperus spp.,Nutsedge/Globesedge,2,2,2,3,4,3,3,2,2,1
+November,2,8,2-8,Fill Sand,Indigofera hirsuta,Hairy Indigo,,,,,,,,,,
+November,2,8,2-8,Fill Sand,Paspalum notatum,Bahiagrass,,,,,,,,,,
+November,2,8,2-8,Fill Sand,Richardia spp.,Pusley,,,,,,,,,,
+November,2,9,2-9,Control,Bare Ground,Bare Ground,10,10,10,10,10,10,10,10,10,10
+November,2,9,2-9,Control,Cynodon dactylon,Bermudagrass,,,,,,,,,,
+November,2,9,2-9,Control,Cyperus spp.,Nutsedge/Globesedge,1,2,2,1,,2,3,6,5,5
+November,2,9,2-9,Control,Indigofera hirsuta,Hairy Indigo,,,,,,,,,,
+November,2,9,2-9,Control,Paspalum notatum,Bahiagrass,,,,,,,,,,
+November,2,9,2-9,Control,Richardia spp.,Pusley,1,,1,2,3,2,3,4,2,3
+November,2,10,2-10,Fill Sand,Bare Ground,Bare Ground,10,10,10,10,10,10,10,10,10,10
+November,2,10,2-10,Fill Sand,Cynodon dactylon,Bermudagrass,,,,,,,,3,,
+November,2,10,2-10,Fill Sand,Cyperus spp.,Nutsedge/Globesedge,,,,,,,,,,
+November,2,10,2-10,Fill Sand,Indigofera hirsuta,Hairy Indigo,,,,,,,,,,
+November,2,10,2-10,Fill Sand,Paspalum notatum,Bahiagrass,1,1,2,2,1,1,2,3,2,1
+November,2,10,2-10,Fill Sand,Richardia spp.,Pusley,3,2,2,4,3,5,3,2,3,2
+November,2,11,2-11,Soil Inversion,Bare Ground,Bare Ground,10,10,10,10,10,10,10,10,10,10
+November,2,11,2-11,Soil Inversion,Cynodon dactylon,Bermudagrass,,,,,,,,,,
+November,2,11,2-11,Soil Inversion,Cyperus spp.,Nutsedge/Globesedge,4,5,5,5,5,5,4,5,4,5
+November,2,11,2-11,Soil Inversion,Indigofera hirsuta,Hairy Indigo,,,,,,,,,,
+November,2,11,2-11,Soil Inversion,Paspalum notatum,Bahiagrass,,,,,,,,,,
+November,2,11,2-11,Soil Inversion,Richardia spp.,Pusley,,1,1,,,,,2,1,1
+November,2,12,2-12,Preemergent,Bare Ground,Bare Ground,10,10,10,10,10,10,10,10,10,10
+November,2,12,2-12,Preemergent,Cynodon dactylon,Bermudagrass,4,2,,3,3,4,3,,,
+November,2,12,2-12,Preemergent,Cyperus spp.,Nutsedge/Globesedge,,,2,2,,2,,,,2
+November,2,12,2-12,Preemergent,Indigofera hirsuta,Hairy Indigo,,2,,,,,1,,2,
+November,2,12,2-12,Preemergent,Paspalum notatum,Bahiagrass,2,2,2,2,2,2,2,2,2,2
+November,2,12,2-12,Preemergent,Richardia spp.,Pusley,,,1,,,,,,,
