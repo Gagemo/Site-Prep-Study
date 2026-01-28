@@ -12,10 +12,15 @@
 rm(list=ls(all=TRUE))
 cat("\014")
 
+install.packages("xfun")
+install.packages(c("knitr", "rmarkdown", "htmltools", "gridtext", "ggtext"))
+
+
 #########################      Installs Packages   ##############################
 list.of.packages <- c("tidyverse", "vegan", "agricolae", "extrafont", "plotrix",
                       "ggsignif", "multcompView", "ggpubr", "rstatix", "labdsv",
-                      "tables", "ggtext")
+                      "tables", "knitr", "rmarkdown", "htmltools", "gridtext", 
+                      "ggtext")
 new.packages <- list.of.packages[!(list.of.packages %in%
                                      installed.packages()[,"Package"])]
 if(length(new.packages)) install.packages(new.packages)
@@ -128,11 +133,12 @@ label_data <- BG %>%
   left_join(letters_df, by = "Treatment")
 
 Nov_BG_Box =
-  ggplot(BG, aes(x = Treatment, y = Coverage), colour = Treatment) +
+  ggplot(BG, aes(x = Treatment, y = Coverage)) +
   geom_boxplot(aes(fill=Treatment), alpha = 0.5, outlier.shape = NA) +
   geom_point(aes(fill=Treatment), size = 3,
              position = position_jitterdodge(), alpha = 0.7) +
-  geom_text(data = label_data, aes(x = Treatment, y = Coverage, label = letters), size = 8, fontface = "bold") +
+  geom_text(data = label_data, aes(x = Treatment, y = Coverage, label = letters), 
+            size = 8, fontface = "bold") +
   labs(subtitle = get_test_label(anova_BG, detailed = TRUE),
        caption = get_pwc_label(tukey_BG)) +
   scale_color_manual(labels=c('Control', 'Fill', 'Preemergent','Soil Inversion'),
@@ -194,7 +200,7 @@ label_data <- PN %>%
   left_join(letters_df, by = "Treatment")
 
 Nov_PN_Box =
-  ggplot(PN, aes(x = Treatment, y = Coverage), colour = Treatment) +
+  ggplot(PN, aes(x = Treatment, y = Coverage)) +
   geom_boxplot(aes(fill=Treatment), alpha = 0.5, outlier.shape = NA) +
   geom_point(aes(fill=Treatment), size = 3,
              position = position_jitterdodge(), alpha = 0.7) +
@@ -265,7 +271,7 @@ label_data <- BG %>%
   left_join(letters_df, by = "Treatment")
 
 Jan_BG_Box =
-  ggplot(BG, aes(x = Treatment, y = Coverage), colour = Treatment) +
+  ggplot(BG, aes(x = Treatment, y = Coverage)) +
   geom_boxplot(aes(fill=Treatment), alpha = 0.5, outlier.shape = NA) +
   geom_point(aes(fill=Treatment), size = 3,
              position = position_jitterdodge(), alpha = 0.7) +
@@ -331,7 +337,7 @@ label_data <- PN %>%
   left_join(letters_df, by = "Treatment")
 
 Jan_PN_Box =
-  ggplot(PN, aes(x = Treatment, y = Coverage), colour = Treatment) +
+  ggplot(PN, aes(x = Treatment, y = Coverage)) +
   geom_boxplot(aes(fill=Treatment), alpha = 0.5, outlier.shape = NA) +
   geom_point(aes(fill=Treatment), size = 3,
              position = position_jitterdodge(), alpha = 0.7) +
@@ -395,7 +401,7 @@ label_data <- OL %>%
   left_join(letters_df, by = "Treatment")
 
 Jan_OL_Box =
-  ggplot(OL, aes(x = Treatment, y = Coverage), colour = Treatment) +
+  ggplot(OL, aes(x = Treatment, y = Coverage)) +
   geom_boxplot(aes(fill=Treatment), alpha = 0.5, outlier.shape = NA) +
   geom_point(aes(fill=Treatment), size = 3,
              position = position_jitterdodge(), alpha = 0.7) +
@@ -461,7 +467,7 @@ label_data <- RS %>%
   left_join(letters_df, by = "Treatment")
 
 Jan_RS_Box =
-  ggplot(RS, aes(x = Treatment, y = Coverage), colour = Treatment) +
+  ggplot(RS, aes(x = Treatment, y = Coverage)) +
   geom_boxplot(aes(fill=Treatment), alpha = 0.5, outlier.shape = NA) +
   geom_point(aes(fill=Treatment), size = 3,
              position = position_jitterdodge(), alpha = 0.7) +
@@ -526,7 +532,7 @@ label_data <- BG %>%
   left_join(letters_df, by = "Treatment")
 
 # The plot code will now use the new 'label_data' and 'geom_text'
-April_BG_Box = ggplot(BG, aes(x = Treatment, y = Coverage), colour = Treatment) +
+April_BG_Box = ggplot(BG, aes(x = Treatment, y = Coverage)) +
   geom_boxplot(aes(fill = Treatment), alpha = 0.5, outlier.shape = NA) +
   geom_point(aes(fill = Treatment), size = 3,
              position = position_jitterdodge(), alpha = 0.7) +
@@ -592,7 +598,7 @@ label_data <- PN %>%
   left_join(letters_df, by = "Treatment")
 
 April_PN_Box =
-  ggplot(PN, aes(x = Treatment, y = Coverage), colour = Treatment) +
+  ggplot(PN, aes(x = Treatment, y = Coverage)) +
   geom_boxplot(aes(fill=Treatment), alpha = 0.5, outlier.shape = NA) +
   geom_point(aes(fill=Treatment), size = 3,
              position = position_jitterdodge(), alpha = 0.7) +
@@ -658,7 +664,7 @@ label_data <- OL %>%
   left_join(letters_df, by = "Treatment")
 
 April_OL_Box =
-  ggplot(OL, aes(x = Treatment, y = Coverage), colour = Treatment) +
+  ggplot(OL, aes(x = Treatment, y = Coverage)) +
   geom_boxplot(aes(fill=Treatment), alpha = 0.5, outlier.shape = NA) +
   geom_point(aes(fill=Treatment), size = 3,
              position = position_jitterdodge(), alpha = 0.7) +
@@ -725,7 +731,7 @@ label_data <- RS %>%
   left_join(letters_df, by = "Treatment")
 
 April_RS_Box =
-  ggplot(RS, aes(x = Treatment, y = Coverage), colour = Treatment) +
+  ggplot(RS, aes(x = Treatment, y = Coverage)) +
   geom_boxplot(aes(fill=Treatment), alpha = 0.5, outlier.shape = NA) +
   geom_point(aes(fill=Treatment), size = 3,
              position = position_jitterdodge(), alpha = 0.7) +
@@ -793,7 +799,7 @@ label_data <- IH %>%
   left_join(letters_df, by = "Treatment")
 
 April_IH_Box =
-  ggplot(IH, aes(x = Treatment, y = Coverage), colour = Treatment) +
+  ggplot(IH, aes(x = Treatment, y = Coverage)) +
   geom_boxplot(aes(fill=Treatment), alpha = 0.5, outlier.shape = NA) +
   geom_point(aes(fill=Treatment), size = 3,
              position = position_jitterdodge(), alpha = 0.7) +
@@ -830,4 +836,5 @@ Coverage = ggarrange(Jan_OL_Box, April_OL_Box,
                      Jan_PN_Box, April_PN_Box,
                      nrow = 3, ncol = 2)
 Coverage
-ggsave("Figures/Coverage.png", width = 14, height = 12, dpi=600)
+ggsave("Figures/Coverage.tiff", dpi = 100, width = 14, height = 12)
+

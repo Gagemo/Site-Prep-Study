@@ -180,7 +180,7 @@ vectors_combined <- cbind(vectors_df, p_value = vectors_pvals)
 
 write.csv(
   vectors_combined, 
-  "Figures/NMDS_FitValues_April.csv", 
+  "Tables/NMDS_FitValues_April.csv", 
   row.names = TRUE)
 
 ################################################################################
@@ -225,7 +225,7 @@ significant_species$Rank <-
 # Save the combined data frame to CSV
 write.csv(
   significant_species, 
-  file = "Figures/indicator_species_analysis_results_April.csv", 
+  file = "Tables/indicator_species_analysis_results_April.csv", 
   row.names = TRUE)
 
 ################################################################################
@@ -263,7 +263,7 @@ head(table_data)
 
 write.csv(
   table_data, 
-  file = "Figures/SIMPER_April.csv", 
+  file = "Tables/SIMPER_April.csv", 
   row.names = TRUE)
 
 ################################################################################
@@ -337,7 +337,7 @@ NMDS_graph_April_Spp
 # Perform adonis to test the significance of treatments#
 adon.results <- adonis2(Veg_Spp ~ Treatment, data = NMDS, method="bray")
 print(adon.results)
-write.csv.tabular(adon.results, "Figures/adonis_April.csv")
+write.csv.tabular(adon.results, "Tables/adonis_April.csv")
 pairwise.adonis <-pairwise.adonis2(Veg_Spp ~ Treatment, data = NMDS)
 pairwise.adonis
 
@@ -380,7 +380,7 @@ for (name in names(pairwise.adonis)) {
 }
 
 # Save the workbook to an Excel file
-saveWorkbook(wb, "Figures/pairwise_adonis_same_sheet_April.xlsx", 
+saveWorkbook(wb, "Tables/pairwise_adonis_same_sheet_April.xlsx", 
              overwrite = TRUE)
 
 ################################################################################
@@ -505,7 +505,7 @@ vectors_combined <- cbind(vectors_df, p_value = vectors_pvals)
 
 write.csv(
   vectors_combined, 
-  "Figures/NMDS_FitValues_Jan.csv", 
+  "Tables/NMDS_FitValues_Jan.csv", 
   row.names = TRUE)
 
 ################################################################################
@@ -550,7 +550,7 @@ significant_species$Rank <-
 # Save the combined data frame to CSV
 write.csv(
   significant_species, 
-  file = "Figures/indicator_species_analysis_results_Jan.csv", 
+  file = "Tables/indicator_species_analysis_results_Jan.csv", 
   row.names = TRUE)
 
 ################################################################################
@@ -588,7 +588,7 @@ head(table_data)
 
 write.csv(
   table_data, 
-  file = "Figures/SIMPER_Jan.csv", 
+  file = "Tables/SIMPER_Jan.csv", 
   row.names = TRUE)
 
 ################################################################################
@@ -665,7 +665,7 @@ NMDS_graph_Jan_Spp
 # Perform adonis to test the significance of treatments#
 adon.results <- adonis2(Veg_Spp ~ Treatment, data = NMDS, method="bray")
 print(adon.results)
-write.csv.tabular(adon.results, "Figures/adonis_Jan.csv")
+write.csv.tabular(adon.results, "Tables/adonis_Jan.csv")
 pairwise.adonis <-pairwise.adonis2(Veg_Spp ~ Treatment, data = NMDS)
 pairwise.adonis
 
@@ -708,7 +708,7 @@ for (name in names(pairwise.adonis)) {
 }
 
 # Save the workbook to an Excel file
-saveWorkbook(wb, "Figures/pairwise_adonis_same_sheet_Jan.xlsx", 
+saveWorkbook(wb, "Tables/pairwise_adonis_same_sheet_Jan.xlsx", 
              overwrite = TRUE)
 
 ################################################################################
@@ -833,7 +833,7 @@ vectors_combined <- cbind(vectors_df, p_value = vectors_pvals)
 
 write.csv(
   vectors_combined, 
-  "Figures/NMDS_FitValues_Nov.csv", 
+  "Tables/NMDS_FitValues_Nov.csv", 
   row.names = TRUE)
 
 ################################################################################
@@ -878,7 +878,7 @@ significant_species$Rank <-
 # Save the combined data frame to CSV
 write.csv(
   significant_species, 
-  file = "Figures/indicator_species_analysis_results_Nov.csv", 
+  file = "Tables/indicator_species_analysis_results_Nov.csv", 
   row.names = TRUE)
 
 ################################################################################
@@ -916,7 +916,7 @@ head(table_data)
 
 write.csv(
   table_data, 
-  file = "Figures/SIMPER_Nov.csv", 
+  file = "Tables/SIMPER_Nov.csv", 
   row.names = TRUE)
 
 ################################################################################
@@ -992,7 +992,7 @@ Nov_NMDS_graph_Spp
 # Perform adonis to test the significance of treatments#
 adon.results <- adonis2(Veg_Spp ~ Treatment, data = NMDS, method="bray")
 print(adon.results)
-write.csv.tabular(adon.results, "Figures/adonis_Nov.csv")
+write.csv.tabular(adon.results, "Tables/adonis_Nov.csv")
 pairwise.adonis <-pairwise.adonis2(Veg_Spp ~ Treatment, data = NMDS)
 pairwise.adonis
 
@@ -1036,7 +1036,7 @@ for (name in names(pairwise.adonis)) {
 }
 
 # Save the workbook to an Excel file
-saveWorkbook(wb, "Figures/pairwise_adonis_same_sheet_Nov.xlsx", overwrite = TRUE)
+saveWorkbook(wb, "Tables/pairwise_adonis_same_sheet_Nov.xlsx", overwrite = TRUE)
 
 
 ################################################################################
@@ -1047,4 +1047,4 @@ NMDS_Combined = ggarrange(Nov_NMDS_graph, Nov_NMDS_graph_Spp,
                           nrow = 3, ncol = 2, common.legend = TRUE,
                           legend = "bottom")
 NMDS_Combined
-ggsave("Figures/NMDS_Combined.png", dpi = 1000, width = 18, height = 24)
+ggsave("Figures/NMDS_Combined.tiff", dpi = 100, width = 18, height = 24)

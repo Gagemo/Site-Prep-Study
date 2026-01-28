@@ -190,6 +190,6 @@ final_figure <- annotate_figure(
 print(final_figure)
 
 # Save the figure to a file
-ggsave("Figures/seedbank_germ_count.png", plot = final_figure, dpi = 600, 
+ggsave("Figures/seedbank_germ_count.tiff", plot = final_figure,dpi = 100,
        width = 18, height = 8)
 

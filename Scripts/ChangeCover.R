@@ -160,21 +160,19 @@ tmp <- tabular(Treatment ~ Change_abundance* (mean+sd+std.error), data=BG)
 tmp
 
 # The plot code will now use the new 'label_data' and 'geom_text'
-April_BG_Box = ggplot(BG, aes(x = Treatment, y = Change_abundance), 
-                      colour = Treatment) +
+April_BG_Box <- ggplot(BG, aes(x = Treatment, y = Change_abundance)) +
   geom_boxplot(aes(fill = Treatment), alpha = 0.5, outlier.shape = NA) +
   geom_point(aes(fill = Treatment), size = 3,
              position = position_jitterdodge(), alpha = 0.7) +
-  # Use geom_text to add the letters from the new data frame
-  geom_text(data = label_data, aes(x = Treatment, y = Change_abundance, 
-                                   label = letters), size = 8, 
-            fontface = "bold") +
+  geom_text(data = label_data,
+            aes(x = Treatment, y = Change_abundance, label = letters),
+            size = 8, fontface = "bold") +
   labs(subtitle = get_test_label(anova_BG, detailed = TRUE),
        caption = get_pwc_label(tukey_BG)) +
-  scale_color_manual(labels=c('Control', 'Fill', 'Preemergent','Soil Inversion'),
-                     values=c("yellow", "orange", "#66CC00", "#CC66CC")) +
-  scale_fill_manual(labels=c('Control', 'Fill', 'Preemergent','Soil Inversion'),
-                    values=c("yellow", "orange", "#66CC00", "#CC66CC")) +
+  scale_color_manual(labels = c('Control', 'Fill', 'Preemergent','Soil Inversion'),
+                     values = c("yellow", "orange", "#66CC00", "#CC66CC")) +
+  scale_fill_manual(labels = c('Control', 'Fill', 'Preemergent','Soil Inversion'),
+                    values = c("yellow", "orange", "#66CC00", "#CC66CC")) +
   theme_classic() +
   theme(panel.grid.major = element_blank(),
         panel.grid.minor = element_blank(),
@@ -233,7 +231,7 @@ label_data <- PN %>%
   left_join(letters_df, by = "Treatment")
 
 April_PN_Change_Box =
-  ggplot(PN, aes(x = Treatment, y = Change_abundance), colour = Treatment) +
+  ggplot(PN, aes(x = Treatment, y = Change_abundance)) +
   geom_boxplot(aes(fill=Treatment), alpha = 0.5, outlier.shape = NA) +
   geom_point(aes(fill=Treatment), size = 3,
              position = position_jitterdodge(), alpha = 0.7) +
@@ -302,7 +300,7 @@ label_data <- OL %>%
   left_join(letters_df, by = "Treatment")
 
 April_OL_Change_Box =
-  ggplot(OL, aes(x = Treatment, y = Change_abundance), colour = Treatment) +
+  ggplot(OL, aes(x = Treatment, y = Change_abundance)) +
   geom_boxplot(aes(fill=Treatment), alpha = 0.5, outlier.shape = NA) +
   geom_point(aes(fill=Treatment), size = 3,
              position = position_jitterdodge(), alpha = 0.7) +
@@ -461,8 +459,7 @@ label_data <- BG %>%
   left_join(letters_df, by = "Treatment")
 
 # The plot code will now use the new 'label_data' and 'geom_text'
-Jan_BG_Box = ggplot(BG, aes(x = Treatment, y = Change_abundance), 
-                    colour = Treatment) +
+Jan_BG_Box = ggplot(BG, aes(x = Treatment, y = Change_abundance)) +
   geom_boxplot(aes(fill = Treatment), alpha = 0.5, outlier.shape = NA) +
   geom_point(aes(fill = Treatment), size = 3,
              position = position_jitterdodge(), alpha = 0.7) +
@@ -536,7 +533,7 @@ label_data <- PN %>%
   left_join(letters_df, by = "Treatment")
 
 Jan_PN_Change_Box =
-  ggplot(PN, aes(x = Treatment, y = Change_abundance), colour = Treatment) +
+  ggplot(PN, aes(x = Treatment, y = Change_abundance)) +
   geom_boxplot(aes(fill=Treatment), alpha = 0.5, outlier.shape = NA) +
   geom_point(aes(fill=Treatment), size = 3,
              position = position_jitterdodge(), alpha = 0.7) +
@@ -605,7 +602,7 @@ label_data <- OL %>%
   left_join(letters_df, by = "Treatment")
 
 Jan_OL_Change_Box =
-  ggplot(OL, aes(x = Treatment, y = Change_abundance), colour = Treatment) +
+  ggplot(OL, aes(x = Treatment, y = Change_abundance)) +
   geom_boxplot(aes(fill=Treatment), alpha = 0.5, outlier.shape = NA) +
   geom_point(aes(fill=Treatment), size = 3,
              position = position_jitterdodge(), alpha = 0.7) +
@@ -640,5 +637,5 @@ Jan_OL_Change_Box
 ChangeCoverage_all = ggarrange(Jan_BG_Box, April_BG_Box, nrow = 1, ncol = 2)
 ChangeCoverage_all
 
-ggsave("Figures/ChangeCoverage_All.png", 
-       width = 14, height = 8, dpi=600)
+ggsave("Figures/ChangeCoverage_All.tiff", dpi = 100,
+       width = 14, height = 8)

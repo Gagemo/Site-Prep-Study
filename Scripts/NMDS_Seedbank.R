@@ -158,7 +158,7 @@ print("Adonis Results:")
 print(adon.results)
 
 # Save the Adonis results to a CSV file.
-write.csv(adon.results, "Figures/pretreat_Seedbank_adonis.csv")
+write.csv(adon.results, "Tables/pretreat_Seedbank_adonis.csv")
 
 # Perform pairwise Adonis to see which specific treatments are different from each other.
 # This is only necessary if the main adonis test is significant.
@@ -168,7 +168,7 @@ print("Pairwise Adonis Results:")
 print(pairwise.adon.results)
 
 # Save the pairwise Adonis results to a CSV file.
-write.csv(pairwise.adon.results, "Figures/pretreat_Seedbank_pairwise_adonis.csv")
+write.csv(pairwise.adon.results, "Tables/pretreat_Seedbank_pairwise_adonis.csv")
 
 ################################################################################
 ###################### Post-Treatment Data ######################################
@@ -278,7 +278,7 @@ print("Adonis Results:")
 print(adon.results)
 
 # Save the Adonis results to a CSV file.
-write.csv(adon.results, "Figures/post_Seedbank_adonis.csv")
+write.csv(adon.results, "Tables/post_Seedbank_adonis.csv")
 
 # Perform pairwise Adonis to see which specific treatments are different from each other.
 # This is only necessary if the main adonis test is significant.
@@ -288,7 +288,7 @@ print("Pairwise Adonis Results:")
 print(pairwise.adon.results)
 
 # Save the pairwise Adonis results to a CSV file.
-write.csv(pairwise.adon.results, "Figures/post_Seedbank_pairwise_adonis.csv")
+write.csv(pairwise.adon.results, "Tables/post_Seedbank_pairwise_adonis.csv")
 
 ################################################################################
 ################################################################################
@@ -299,6 +299,5 @@ Pre_Post_Seedbank_NMDS = ggarrange(Pre_NMDS_graph, Post_NMDS_graph,
 Pre_Post_Seedbank_NMDS
 
 
-ggsave("Figures/Pre_Post_Seedbank_NMDS.png", width = 10, height = 6, dpi = 600,
-       device = "png")
+ggsave("Figures/Pre_Post_Seedbank_NMDS.tiff", dpi = 100, width = 10, height = 6)
 

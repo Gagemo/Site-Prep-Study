@@ -184,12 +184,12 @@ NMDS_graph = ggplot() +
   labs(x = "MDS1", y = "MDS2", color = "Treatment", fill = "Treatment")
 NMDS_graph
 
-ggsave("Figures/pretreat_NMDS_graph.png")
+ggsave("Figures/pretreat_NMDS_graph.tiff", dpi = 100)
 
 # Perform adonis to test the significance of treatments#
 adon.results <- adonis2(Veg_Spp ~ Treatment, data = NMDS, method="bray")
 print(adon.results)
-write.csv.tabular(adon.results, "Figures/Pretreat_adonis.csv")
+write.csv.tabular(adon.results, "Tables/Pretreat_adonis.csv")
 pairwise.adonis <-pairwise.adonis2(Veg_Spp ~ Treatment, data = NMDS)
 pairwise.adonis
 
@@ -232,5 +232,5 @@ for (name in names(pairwise.adonis)) {
 }
 
 # Save the workbook to an Excel file
-saveWorkbook(wb, "Figures/Pretreat_pairwise_adonis_same_sheet.xlsx", 
+saveWorkbook(wb, "Tables/Pretreat_pairwise_adonis_same_sheet.xlsx", 
              overwrite = TRUE)

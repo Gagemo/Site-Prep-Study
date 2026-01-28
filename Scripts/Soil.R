@@ -109,5 +109,5 @@ soil_plots <- lapply(c("pH", "P",
 
 soil_panel <- ggpubr::ggarrange(plotlist = soil_plots, ncol = 2, nrow = 5,
                                 common.legend = TRUE, legend = "bottom")
-ggsave("Figures/Soil_Properties_Panel_with_Letters.jpg", soil_panel,
-       width = 12, height = 10)
+ggsave("Figures/Soil_Properties_Panel_with_Letters.tiff", soil_panel,
+       width = 12, height = 10, dpi = 100)
