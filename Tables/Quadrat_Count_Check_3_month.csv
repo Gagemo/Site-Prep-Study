@@ -1,0 +1,359 @@
+"Block","Plot","Treatment","Species","Quadrats_Observed","Values_Observed"
+1,1,"Soil Inversion","Bare Ground",10,10
+1,1,"Soil Inversion","Cynodon dactylon",10,10
+1,1,"Soil Inversion","Cyperus spp.",10,10
+1,1,"Soil Inversion","Erigeron canadensis",10,10
+1,1,"Soil Inversion","Gamochaeta spp.",10,10
+1,1,"Soil Inversion","Indigofera hirsuta",10,10
+1,1,"Soil Inversion","Lactuca spp.",10,10
+1,1,"Soil Inversion","Linaria canadensis",10,10
+1,1,"Soil Inversion","Oenothera laciniata",10,10
+1,1,"Soil Inversion","Oxalis corniculata",10,10
+1,1,"Soil Inversion","Paspalum notatum",10,10
+1,1,"Soil Inversion","Paspalum setaceum",10,10
+1,1,"Soil Inversion","Phyllanthus urinaria",10,10
+1,1,"Soil Inversion","Richardia spp.",10,10
+1,1,"Soil Inversion","Rumex hastatulus",10,10
+1,1,"Soil Inversion","Sinapis arvensis",10,10
+1,1,"Soil Inversion","Sonchus asper",10,10
+1,2,"Control","Bare Ground",10,10
+1,2,"Control","Cynodon dactylon",10,10
+1,2,"Control","Cyperus spp.",10,10
+1,2,"Control","Erigeron canadensis",10,10
+1,2,"Control","Gamochaeta spp.",10,10
+1,2,"Control","Indigofera hirsuta",10,10
+1,2,"Control","Lactuca spp.",10,10
+1,2,"Control","Linaria canadensis",10,10
+1,2,"Control","Oenothera laciniata",10,10
+1,2,"Control","Oxalis corniculata",10,10
+1,2,"Control","Paspalum notatum",10,10
+1,2,"Control","Paspalum setaceum",10,10
+1,2,"Control","Phyllanthus urinaria",10,10
+1,2,"Control","Richardia spp.",10,10
+1,2,"Control","Rumex hastatulus",10,10
+1,2,"Control","Sonchus asper",10,10
+1,2,"Control","Triodanis perfoliata",10,10
+1,3,"Soil Inversion","Bare Ground",10,10
+1,3,"Soil Inversion","Cynodon dactylon",10,10
+1,3,"Soil Inversion","Cyperus spp.",10,10
+1,3,"Soil Inversion","Erigeron canadensis",10,10
+1,3,"Soil Inversion","Gamochaeta spp.",10,10
+1,3,"Soil Inversion","Indigofera hirsuta",10,10
+1,3,"Soil Inversion","Lactuca spp.",10,10
+1,3,"Soil Inversion","Linaria canadensis",10,10
+1,3,"Soil Inversion","Oenothera laciniata",10,10
+1,3,"Soil Inversion","Oxalis corniculata",10,10
+1,3,"Soil Inversion","Paspalum notatum",10,10
+1,3,"Soil Inversion","Paspalum setaceum",10,10
+1,3,"Soil Inversion","Phyllanthus urinaria",10,10
+1,3,"Soil Inversion","Portulaca spp.",10,10
+1,3,"Soil Inversion","Richardia spp.",10,10
+1,3,"Soil Inversion","Rumex hastatulus",10,10
+1,3,"Soil Inversion","Sonchus asper",10,10
+1,3,"Soil Inversion","Triodanis perfoliata",10,10
+1,4,"Control","Bare Ground",10,10
+1,4,"Control","Cynodon dactylon",10,10
+1,4,"Control","Cyperus spp.",10,10
+1,4,"Control","Erigeron canadensis",10,10
+1,4,"Control","Gamochaeta spp.",10,10
+1,4,"Control","Indigofera hirsuta",10,10
+1,4,"Control","Lactuca spp.",10,10
+1,4,"Control","Linaria canadensis",10,10
+1,4,"Control","Oenothera laciniata",10,10
+1,4,"Control","Oxalis corniculata",10,10
+1,4,"Control","Paspalum notatum",10,10
+1,4,"Control","Paspalum setaceum",10,10
+1,4,"Control","Phyllanthus urinaria",10,10
+1,4,"Control","Richardia spp.",10,10
+1,4,"Control","Rumex hastatulus",10,10
+1,4,"Control","Sinapis arvensis",10,10
+1,4,"Control","Sonchus asper",10,10
+1,4,"Control","Triodanis perfoliata",10,10
+1,5,"Preemergent","Bare Ground",10,10
+1,5,"Preemergent","Cynodon dactylon",10,10
+1,5,"Preemergent","Cyperus spp.",10,10
+1,5,"Preemergent","Erigeron canadensis",10,10
+1,5,"Preemergent","Gamochaeta spp.",10,10
+1,5,"Preemergent","Indigofera hirsuta",10,10
+1,5,"Preemergent","Lactuca spp.",10,10
+1,5,"Preemergent","Oenothera laciniata",10,10
+1,5,"Preemergent","Oxalis corniculata",10,10
+1,5,"Preemergent","Paspalum notatum",10,10
+1,5,"Preemergent","Paspalum setaceum",10,10
+1,5,"Preemergent","Phyllanthus urinaria",10,10
+1,5,"Preemergent","Richardia spp.",10,10
+1,5,"Preemergent","Rumex hastatulus",10,10
+1,5,"Preemergent","Sonchus asper",10,10
+1,6,"Fill Sand","Bare Ground",10,10
+1,6,"Fill Sand","Cynodon dactylon",10,10
+1,6,"Fill Sand","Cyperus spp.",10,10
+1,6,"Fill Sand","Erigeron canadensis",10,10
+1,6,"Fill Sand","Gamochaeta spp.",10,10
+1,6,"Fill Sand","Indigofera hirsuta",10,10
+1,6,"Fill Sand","Lactuca spp.",10,10
+1,6,"Fill Sand","Oenothera laciniata",10,10
+1,6,"Fill Sand","Oxalis corniculata",10,10
+1,6,"Fill Sand","Paspalum notatum",10,10
+1,6,"Fill Sand","Paspalum setaceum",10,10
+1,6,"Fill Sand","Phyllanthus urinaria",10,10
+1,6,"Fill Sand","Richardia spp.",10,10
+1,6,"Fill Sand","Rumex hastatulus",10,10
+1,6,"Fill Sand","Sonchus asper",10,10
+1,7,"Fill Sand","Bare Ground",10,10
+1,7,"Fill Sand","Cynodon dactylon",10,10
+1,7,"Fill Sand","Cyperus spp.",10,10
+1,7,"Fill Sand","Erigeron canadensis",10,10
+1,7,"Fill Sand","Gamochaeta spp.",10,10
+1,7,"Fill Sand","Geranium carolinianum",10,10
+1,7,"Fill Sand","Indigofera hirsuta",10,10
+1,7,"Fill Sand","Lactuca spp.",10,10
+1,7,"Fill Sand","Oenothera laciniata",10,10
+1,7,"Fill Sand","Oxalis corniculata",10,10
+1,7,"Fill Sand","Paspalum notatum",10,10
+1,7,"Fill Sand","Paspalum setaceum",10,10
+1,7,"Fill Sand","Phyllanthus urinaria",10,10
+1,7,"Fill Sand","Richardia spp.",10,10
+1,7,"Fill Sand","Rumex hastatulus",10,10
+1,7,"Fill Sand","Sonchus asper",10,10
+1,7,"Fill Sand","Triodanis perfoliata",10,10
+1,8,"Fill Sand","Bare Ground",10,10
+1,8,"Fill Sand","Cynodon dactylon",10,10
+1,8,"Fill Sand","Cyperus spp.",10,10
+1,8,"Fill Sand","Erigeron canadensis",10,10
+1,8,"Fill Sand","Gamochaeta spp.",10,10
+1,8,"Fill Sand","Indigofera hirsuta",10,10
+1,8,"Fill Sand","Lactuca spp.",10,10
+1,8,"Fill Sand","Oenothera laciniata",10,10
+1,8,"Fill Sand","Oxalis corniculata",10,10
+1,8,"Fill Sand","Paspalum notatum",10,10
+1,8,"Fill Sand","Paspalum setaceum",10,10
+1,8,"Fill Sand","Phyllanthus urinaria",10,10
+1,8,"Fill Sand","Richardia spp.",10,10
+1,8,"Fill Sand","Rumex hastatulus",10,10
+1,8,"Fill Sand","Sonchus asper",10,10
+1,8,"Fill Sand","Triodanis perfoliata",10,10
+1,9,"Control","Bare Ground",10,10
+1,9,"Control","Cynodon dactylon",10,10
+1,9,"Control","Cyperus spp.",10,10
+1,9,"Control","Erigeron canadensis",10,10
+1,9,"Control","Gamochaeta spp.",10,10
+1,9,"Control","Indigofera hirsuta",10,10
+1,9,"Control","Lactuca spp.",10,10
+1,9,"Control","Linaria canadensis",10,10
+1,9,"Control","Oenothera laciniata",10,10
+1,9,"Control","Oxalis corniculata",10,10
+1,9,"Control","Paspalum notatum",10,10
+1,9,"Control","Paspalum setaceum",10,10
+1,9,"Control","Phyllanthus urinaria",10,10
+1,9,"Control","Richardia spp.",10,10
+1,9,"Control","Rumex hastatulus",10,10
+1,9,"Control","Sonchus asper",10,10
+1,9,"Control","Triodanis perfoliata",10,10
+1,10,"Preemergent","Bare Ground",10,10
+1,10,"Preemergent","Cynodon dactylon",10,10
+1,10,"Preemergent","Cyperus spp.",10,10
+1,10,"Preemergent","Erigeron canadensis",10,10
+1,10,"Preemergent","Gamochaeta spp.",10,10
+1,10,"Preemergent","Indigofera hirsuta",10,10
+1,10,"Preemergent","Lactuca spp.",10,10
+1,10,"Preemergent","Oenothera laciniata",10,10
+1,10,"Preemergent","Oxalis corniculata",10,10
+1,10,"Preemergent","Paspalum notatum",10,10
+1,10,"Preemergent","Paspalum setaceum",10,10
+1,10,"Preemergent","Phyllanthus urinaria",10,10
+1,10,"Preemergent","Richardia spp.",10,10
+1,10,"Preemergent","Rumex hastatulus",10,10
+1,10,"Preemergent","Sonchus asper",10,10
+1,10,"Preemergent","Triodanis perfoliata",10,10
+1,11,"Soil Inversion","Bare Ground",10,10
+1,11,"Soil Inversion","Cynodon dactylon",10,10
+1,11,"Soil Inversion","Cyperus spp.",10,10
+1,11,"Soil Inversion","Erigeron canadensis",10,10
+1,11,"Soil Inversion","Gamochaeta spp.",10,10
+1,11,"Soil Inversion","Indigofera hirsuta",10,10
+1,11,"Soil Inversion","Lactuca spp.",10,10
+1,11,"Soil Inversion","Oenothera laciniata",10,10
+1,11,"Soil Inversion","Oxalis corniculata",10,10
+1,11,"Soil Inversion","Paspalum notatum",10,10
+1,11,"Soil Inversion","Paspalum setaceum",10,10
+1,11,"Soil Inversion","Phyllanthus urinaria",10,10
+1,11,"Soil Inversion","Richardia spp.",10,10
+1,11,"Soil Inversion","Rumex hastatulus",10,10
+1,11,"Soil Inversion","Sonchus asper",10,10
+1,11,"Soil Inversion","Triodanis perfoliata",10,10
+1,12,"Preemergent","Bare Ground",10,10
+1,12,"Preemergent","Cynodon dactylon",10,10
+1,12,"Preemergent","Cyperus spp.",10,10
+1,12,"Preemergent","Erigeron canadensis",10,10
+1,12,"Preemergent","Gamochaeta spp.",10,10
+1,12,"Preemergent","Indigofera hirsuta",10,10
+1,12,"Preemergent","Lactuca spp.",10,10
+1,12,"Preemergent","Oenothera laciniata",10,10
+1,12,"Preemergent","Oxalis corniculata",10,10
+1,12,"Preemergent","Paspalum notatum",10,10
+1,12,"Preemergent","Paspalum setaceum",10,10
+1,12,"Preemergent","Phyllanthus urinaria",10,10
+1,12,"Preemergent","Richardia spp.",10,10
+1,12,"Preemergent","Rumex hastatulus",10,10
+1,12,"Preemergent","Sonchus asper",10,10
+2,1,"Soil Inversion","Bare Ground",10,10
+2,1,"Soil Inversion","Cynodon dactylon",10,10
+2,1,"Soil Inversion","Cyperus spp.",10,10
+2,1,"Soil Inversion","Erigeron canadensis",10,10
+2,1,"Soil Inversion","Gamochaeta spp.",10,10
+2,1,"Soil Inversion","Indigofera hirsuta",10,10
+2,1,"Soil Inversion","Lepidium virginicum",10,10
+2,1,"Soil Inversion","Linaria canadensis",10,10
+2,1,"Soil Inversion","Oenothera laciniata",10,10
+2,1,"Soil Inversion","Oxalis corniculata",10,10
+2,1,"Soil Inversion","Paspalum notatum",10,10
+2,1,"Soil Inversion","Phyllanthus urinaria",10,10
+2,1,"Soil Inversion","Portulaca spp.",10,10
+2,1,"Soil Inversion","Richardia spp.",10,10
+2,1,"Soil Inversion","Rumex hastatulus",10,10
+2,1,"Soil Inversion","Sonchus asper",10,10
+2,1,"Soil Inversion","Triodanis perfoliata",10,10
+2,2,"Control","Bare Ground",10,10
+2,2,"Control","Cynodon dactylon",10,10
+2,2,"Control","Cyperus spp.",10,10
+2,2,"Control","Erigeron canadensis",10,10
+2,2,"Control","Gamochaeta spp.",10,10
+2,2,"Control","Indigofera hirsuta",10,10
+2,2,"Control","Oenothera laciniata",10,10
+2,2,"Control","Oxalis corniculata",10,10
+2,2,"Control","Paspalum notatum",10,10
+2,2,"Control","Phyllanthus urinaria",10,10
+2,2,"Control","Richardia spp.",10,10
+2,2,"Control","Rumex hastatulus",10,10
+2,2,"Control","Sonchus asper",10,10
+2,3,"Soil Inversion","Bare Ground",10,10
+2,3,"Soil Inversion","Cynodon dactylon",10,10
+2,3,"Soil Inversion","Cyperus spp.",10,10
+2,3,"Soil Inversion","Erigeron canadensis",10,10
+2,3,"Soil Inversion","Gamochaeta spp.",10,10
+2,3,"Soil Inversion","Indigofera hirsuta",10,10
+2,3,"Soil Inversion","Oenothera laciniata",10,10
+2,3,"Soil Inversion","Oxalis corniculata",10,10
+2,3,"Soil Inversion","Paspalum notatum",10,10
+2,3,"Soil Inversion","Phyllanthus urinaria",10,10
+2,3,"Soil Inversion","Richardia spp.",10,10
+2,3,"Soil Inversion","Rumex hastatulus",10,10
+2,3,"Soil Inversion","Sonchus asper",10,10
+2,3,"Soil Inversion","Triodanis perfoliata",10,10
+2,4,"Preemergent","Bare Ground",10,10
+2,4,"Preemergent","Cynodon dactylon",10,10
+2,4,"Preemergent","Cyperus spp.",10,10
+2,4,"Preemergent","Erigeron canadensis",10,10
+2,4,"Preemergent","Gamochaeta spp.",10,10
+2,4,"Preemergent","Indigofera hirsuta",10,10
+2,4,"Preemergent","Oenothera laciniata",10,10
+2,4,"Preemergent","Oxalis corniculata",10,10
+2,4,"Preemergent","Paspalum notatum",10,10
+2,4,"Preemergent","Phyllanthus urinaria",10,10
+2,4,"Preemergent","Richardia spp.",10,10
+2,4,"Preemergent","Rumex hastatulus",10,10
+2,4,"Preemergent","Sonchus asper",10,10
+2,5,"Preemergent","Bare Ground",10,10
+2,5,"Preemergent","Cynodon dactylon",10,10
+2,5,"Preemergent","Cyperus spp.",10,10
+2,5,"Preemergent","Erigeron canadensis",10,10
+2,5,"Preemergent","Gamochaeta spp.",10,10
+2,5,"Preemergent","Indigofera hirsuta",10,10
+2,5,"Preemergent","Oenothera laciniata",10,10
+2,5,"Preemergent","Oxalis corniculata",10,10
+2,5,"Preemergent","Paspalum notatum",10,10
+2,5,"Preemergent","Phyllanthus urinaria",10,10
+2,5,"Preemergent","Richardia spp.",10,10
+2,5,"Preemergent","Rumex hastatulus",10,10
+2,5,"Preemergent","Sonchus asper",10,10
+2,6,"Fill Sand","Bare Ground",10,10
+2,6,"Fill Sand","Cynodon dactylon",10,10
+2,6,"Fill Sand","Cyperus spp.",10,10
+2,6,"Fill Sand","Erigeron canadensis",10,10
+2,6,"Fill Sand","Gamochaeta spp.",10,10
+2,6,"Fill Sand","Indigofera hirsuta",10,10
+2,6,"Fill Sand","Oenothera laciniata",10,10
+2,6,"Fill Sand","Oxalis corniculata",10,10
+2,6,"Fill Sand","Paspalum notatum",10,10
+2,6,"Fill Sand","Phyllanthus urinaria",10,10
+2,6,"Fill Sand","Richardia spp.",10,10
+2,6,"Fill Sand","Rumex hastatulus",10,10
+2,6,"Fill Sand","Sonchus asper",10,10
+2,7,"Control","Bare Ground",10,10
+2,7,"Control","Cynodon dactylon",10,10
+2,7,"Control","Cyperus spp.",10,10
+2,7,"Control","Erigeron canadensis",10,10
+2,7,"Control","Gamochaeta spp.",10,10
+2,7,"Control","Indigofera hirsuta",10,10
+2,7,"Control","Oenothera laciniata",10,10
+2,7,"Control","Oxalis corniculata",10,10
+2,7,"Control","Paspalum notatum",10,10
+2,7,"Control","Phyllanthus urinaria",10,10
+2,7,"Control","Richardia spp.",10,10
+2,7,"Control","Rumex hastatulus",10,10
+2,7,"Control","Sonchus asper",10,10
+2,8,"Fill Sand","Bare Ground",10,10
+2,8,"Fill Sand","Cynodon dactylon",10,10
+2,8,"Fill Sand","Cyperus spp.",10,10
+2,8,"Fill Sand","Erigeron canadensis",10,10
+2,8,"Fill Sand","Gamochaeta spp.",10,10
+2,8,"Fill Sand","Indigofera hirsuta",10,10
+2,8,"Fill Sand","Oenothera laciniata",10,10
+2,8,"Fill Sand","Oxalis corniculata",10,10
+2,8,"Fill Sand","Paspalum notatum",10,10
+2,8,"Fill Sand","Phyllanthus urinaria",10,10
+2,8,"Fill Sand","Richardia spp.",10,10
+2,8,"Fill Sand","Rumex hastatulus",10,10
+2,8,"Fill Sand","Sonchus asper",10,10
+2,9,"Control","Bare Ground",10,10
+2,9,"Control","Cynodon dactylon",10,10
+2,9,"Control","Cyperus spp.",10,10
+2,9,"Control","Erigeron canadensis",10,10
+2,9,"Control","Gamochaeta spp.",10,10
+2,9,"Control","Indigofera hirsuta",10,10
+2,9,"Control","Oenothera laciniata",10,10
+2,9,"Control","Oxalis corniculata",10,10
+2,9,"Control","Paspalum notatum",10,10
+2,9,"Control","Phyllanthus urinaria",10,10
+2,9,"Control","Richardia spp.",10,10
+2,9,"Control","Rumex hastatulus",10,10
+2,9,"Control","Sonchus asper",10,10
+2,10,"Fill Sand","Bare Ground",10,10
+2,10,"Fill Sand","Cynodon dactylon",10,10
+2,10,"Fill Sand","Cyperus spp.",10,10
+2,10,"Fill Sand","Erigeron canadensis",10,10
+2,10,"Fill Sand","Gamochaeta spp.",10,10
+2,10,"Fill Sand","Indigofera hirsuta",10,10
+2,10,"Fill Sand","Oenothera laciniata",10,10
+2,10,"Fill Sand","Oxalis corniculata",10,10
+2,10,"Fill Sand","Paspalum notatum",10,10
+2,10,"Fill Sand","Phyllanthus urinaria",10,10
+2,10,"Fill Sand","Richardia spp.",10,10
+2,10,"Fill Sand","Rumex hastatulus",10,10
+2,10,"Fill Sand","Sonchus asper",10,10
+2,11,"Soil Inversion","Bare Ground",10,10
+2,11,"Soil Inversion","Cynodon dactylon",10,10
+2,11,"Soil Inversion","Cyperus spp.",10,10
+2,11,"Soil Inversion","Erigeron canadensis",10,10
+2,11,"Soil Inversion","Gamochaeta spp.",10,10
+2,11,"Soil Inversion","Indigofera hirsuta",10,10
+2,11,"Soil Inversion","Oenothera laciniata",10,10
+2,11,"Soil Inversion","Oxalis corniculata",10,10
+2,11,"Soil Inversion","Paspalum notatum",10,10
+2,11,"Soil Inversion","Phyllanthus urinaria",10,10
+2,11,"Soil Inversion","Richardia spp.",10,10
+2,11,"Soil Inversion","Rumex hastatulus",10,10
+2,11,"Soil Inversion","Sonchus asper",10,10
+2,12,"Preemergent","Bare Ground",10,10
+2,12,"Preemergent","Cynodon dactylon",10,10
+2,12,"Preemergent","Cyperus spp.",10,10
+2,12,"Preemergent","Erigeron canadensis",10,10
+2,12,"Preemergent","Gamochaeta spp.",10,10
+2,12,"Preemergent","Indigofera hirsuta",10,10
+2,12,"Preemergent","Oenothera laciniata",10,10
+2,12,"Preemergent","Oxalis corniculata",10,10
+2,12,"Preemergent","Paspalum notatum",10,10
+2,12,"Preemergent","Phyllanthus urinaria",10,10
+2,12,"Preemergent","Richardia spp.",10,10
+2,12,"Preemergent","Rumex hastatulus",10,10
+2,12,"Preemergent","Sonchus asper",10,10

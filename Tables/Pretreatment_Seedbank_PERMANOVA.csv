@@ -1,0 +1,4 @@
+"Survey","Term","Df","SumOfSqs","R2","F","Pr(>F)"
+"Pre-Treatment","Treatment",3,0.0618435103039237,0.0983389696067181,0.727094893327597,0.8389
+"Pre-Treatment","Residual",20,0.567037497411036,0.901661030393282,NA,NA
+"Pre-Treatment","Total",23,0.628881007714959,1,NA,NA

@@ -50,17 +50,25 @@ df_long <- Data %>%
   # Create the unique ID, now including 'Month'
   mutate(Unique_ID = paste(Block, Plot, Quadrat_ID_Numeric, sep = '-'))
 
-# Filter out *only* blank entries (empty strings) in Coverage
-# We will handle "NA" and other NA values by converting them to 0
+# Preserve all quadrat records. Blank, NA, N/A, and "." values are treated
+# as zero cover because they represent surveyed quadrats where the species
+# or cover category was absent.
 df_cleaned <- df_long %>%
-  filter(Coverage != "")
+  mutate(
+    Coverage = trimws(as.character(Coverage)),
+    Coverage = case_when(
+      is.na(Coverage) ~ "0",
+      Coverage == "" ~ "0",
+      toupper(Coverage) %in% c("NA", "N/A", ".") ~ "0",
+      TRUE ~ Coverage
+    ),
+    Coverage = suppressWarnings(as.numeric(Coverage))
+  )
 
-# Convert Coverage to numeric. This will turn any non-numeric strings (including "NA" if still present) into actual R `NA` values.
-df_cleaned$Coverage <- as.numeric(df_cleaned$Coverage)
-
-# Replace all NA values in Coverage with 0
-df_cleaned <- df_cleaned %>%
-  mutate(Coverage = replace_na(Coverage, 0))
+# Stop if an unrecognized nonnumeric cover value remains.
+if (any(is.na(df_cleaned$Coverage))) {
+  stop("One or more coverage values could not be converted to numeric values.")
+}
 
 # Reclassify coverage data (CV) from 1-10 scale to percent scale
 # Explicitly ensure the output of case_when is numeric
@@ -98,26 +106,71 @@ df_cleaned$Treatment = factor(df_cleaned$Treatment,
 Two_Abundance <- df_cleaned[which(df_cleaned$Month == "November"),]
 Three_Abundance <- df_cleaned[which(df_cleaned$Month == "April"),]
 
-Abundance_w <- full_join(Two_Abundance, Three_Abundance, 
-                         by = c('Unique_ID', "Treatment", 'Species'))
+Abundance_w <- full_join(
+  Two_Abundance,
+  Three_Abundance,
+  by = c(
+    "Unique_ID", "Block", "Plot", "Quadrat_ID", "Quadrat_ID_Numeric",
+    "Treatment", "Species"
+  )
+)
 Abundance_w = arrange(Abundance_w, Treatment)
 
-# Turns NA values into zeros #
-Abundance_w$Coverage.x <- ifelse(is.na(Abundance_w$Coverage.x), 0, 
-                                 Abundance_w$Coverage.x)
-Abundance_w$Coverage.y <- ifelse(is.na(Abundance_w$Coverage.y), 0, 
-                                 Abundance_w$Coverage.y)
+# Turns NA values into zeros when a species was present at one survey but
+# absent at the other survey.
+Abundance_w$Coverage.x <- ifelse(
+  is.na(Abundance_w$Coverage.x), 0, Abundance_w$Coverage.x
+)
+Abundance_w$Coverage.y <- ifelse(
+  is.na(Abundance_w$Coverage.y), 0, Abundance_w$Coverage.y
+)
 
-# Change abundance to reflect percentage change from (Year 1) to (Year 2)  #
-Change_Abundance <- Abundance_w %>% 
-  dplyr::select(Unique_ID, Treatment, Species, 
-                Coverage.x, Coverage.y) %>%
-  group_by(Unique_ID, Treatment, Species) %>% 
-  mutate(Change_abundance = Coverage.y - Coverage.x)
+# Calculate change in cover for each matched quadrat.
+Change_Abundance <- Abundance_w %>%
+  dplyr::select(
+    Block, Plot, Quadrat_ID, Quadrat_ID_Numeric, Unique_ID,
+    Treatment, Species, Coverage.x, Coverage.y
+  ) %>%
+  group_by(
+    Block, Plot, Quadrat_ID_Numeric, Unique_ID, Treatment, Species
+  ) %>%
+  summarise(
+    Coverage.x = mean(Coverage.x),
+    Coverage.y = mean(Coverage.y),
+    Change_abundance = Coverage.y - Coverage.x,
+    .groups = "drop"
+  )
+
+# Average the quadrat-level changes within each plot. The plot is the
+# experimental unit, while the ten quadrats are subsamples.
+Plot_Change_Abundance <- Change_Abundance %>%
+  group_by(Block, Plot, Treatment, Species) %>%
+  summarise(
+    Change_abundance = mean(Change_abundance),
+    SD_within_plot = sd(Change_abundance),
+    Number_of_Quadrats = n_distinct(Quadrat_ID_Numeric),
+    .groups = "drop"
+  )
+
+# Confirm that each plot-species mean is based on all ten quadrats.
+incomplete_plot_species <- Plot_Change_Abundance %>%
+  filter(Number_of_Quadrats != 10)
+
+if (nrow(incomplete_plot_species) > 0) {
+  write.csv(
+    incomplete_plot_species,
+    "Tables/Incomplete_Plot_Species_Change.csv",
+    row.names = FALSE
+  )
+  stop(
+    "One or more plot-species combinations do not contain 10 matched quadrats. ",
+    "See Tables/Incomplete_Plot_Species_Change.csv."
+  )
+}
 
 ##################################  COVER CAHNGES ##############################
 BG = 
-  Change_Abundance[which(Change_Abundance$Species == "Bare Ground"),]
+  Plot_Change_Abundance[which(Plot_Change_Abundance$Species == "Bare Ground"),]
 BG<-as.data.frame(BG)
 BG$Treatment<-factor(BG$Treatment)
 
@@ -193,7 +246,7 @@ April_BG_Box
 
 ##################################  COVER CAHNGES ##############################
 PN = 
-  Change_Abundance[which(Change_Abundance$Species == "Paspalum notatum"),]
+  Plot_Change_Abundance[which(Plot_Change_Abundance$Species == "Paspalum notatum"),]
 PN<-as.data.frame(PN)
 PN$Treatment<-factor(PN$Treatment)
 
@@ -262,7 +315,7 @@ April_PN_Change_Box
 
 ##################################  COVER CAHNGES ##############################
 OL = 
-  Change_Abundance[which(Change_Abundance$Species == "Oenothera laciniata"),]
+  Plot_Change_Abundance[which(Plot_Change_Abundance$Species == "Oenothera laciniata"),]
 OL<-as.data.frame(OL)
 OL$Treatment<-factor(OL$Treatment)
 
@@ -352,17 +405,25 @@ df_long <- Data %>%
   # Create the unique ID, now including 'Month'
   mutate(Unique_ID = paste(Block, Plot, Quadrat_ID_Numeric, sep = '-'))
 
-# Filter out *only* blank entries (empty strings) in Coverage
-# We will handle "NA" and other NA values by converting them to 0
+# Preserve all quadrat records. Blank, NA, N/A, and "." values are treated
+# as zero cover because they represent surveyed quadrats where the species
+# or cover category was absent.
 df_cleaned <- df_long %>%
-  filter(Coverage != "")
+  mutate(
+    Coverage = trimws(as.character(Coverage)),
+    Coverage = case_when(
+      is.na(Coverage) ~ "0",
+      Coverage == "" ~ "0",
+      toupper(Coverage) %in% c("NA", "N/A", ".") ~ "0",
+      TRUE ~ Coverage
+    ),
+    Coverage = suppressWarnings(as.numeric(Coverage))
+  )
 
-# Convert Coverage to numeric. This will turn any non-numeric strings (including "NA" if still present) into actual R `NA` values.
-df_cleaned$Coverage <- as.numeric(df_cleaned$Coverage)
-
-# Replace all NA values in Coverage with 0
-df_cleaned <- df_cleaned %>%
-  mutate(Coverage = replace_na(Coverage, 0))
+# Stop if an unrecognized nonnumeric cover value remains.
+if (any(is.na(df_cleaned$Coverage))) {
+  stop("One or more coverage values could not be converted to numeric values.")
+}
 
 # Reclassify coverage data (CV) from 1-10 scale to percent scale
 # Explicitly ensure the output of case_when is numeric
@@ -400,26 +461,71 @@ df_cleaned$Treatment = factor(df_cleaned$Treatment,
 Two_Abundance <- df_cleaned[which(df_cleaned$Month == "November"),]
 Three_Abundance <- df_cleaned[which(df_cleaned$Month == "Jan"),]
 
-Abundance_w <- full_join(Two_Abundance, Three_Abundance, 
-                         by = c('Unique_ID', "Treatment", 'Species'))
+Abundance_w <- full_join(
+  Two_Abundance,
+  Three_Abundance,
+  by = c(
+    "Unique_ID", "Block", "Plot", "Quadrat_ID", "Quadrat_ID_Numeric",
+    "Treatment", "Species"
+  )
+)
 Abundance_w = arrange(Abundance_w, Treatment)
 
-# Turns NA values into zeros #
-Abundance_w$Coverage.x <- ifelse(is.na(Abundance_w$Coverage.x), 0, 
-                                 Abundance_w$Coverage.x)
-Abundance_w$Coverage.y <- ifelse(is.na(Abundance_w$Coverage.y), 0, 
-                                 Abundance_w$Coverage.y)
+# Turns NA values into zeros when a species was present at one survey but
+# absent at the other survey.
+Abundance_w$Coverage.x <- ifelse(
+  is.na(Abundance_w$Coverage.x), 0, Abundance_w$Coverage.x
+)
+Abundance_w$Coverage.y <- ifelse(
+  is.na(Abundance_w$Coverage.y), 0, Abundance_w$Coverage.y
+)
 
-# Change abundance to reflect percentage change from (Year 1) to (Year 2)  #
-Change_Abundance <- Abundance_w %>% 
-  dplyr::select(Unique_ID, Treatment, Species, 
-                Coverage.x, Coverage.y) %>%
-  group_by(Unique_ID, Treatment, Species) %>% 
-  mutate(Change_abundance = Coverage.y - Coverage.x)
+# Calculate change in cover for each matched quadrat.
+Change_Abundance <- Abundance_w %>%
+  dplyr::select(
+    Block, Plot, Quadrat_ID, Quadrat_ID_Numeric, Unique_ID,
+    Treatment, Species, Coverage.x, Coverage.y
+  ) %>%
+  group_by(
+    Block, Plot, Quadrat_ID_Numeric, Unique_ID, Treatment, Species
+  ) %>%
+  summarise(
+    Coverage.x = mean(Coverage.x),
+    Coverage.y = mean(Coverage.y),
+    Change_abundance = Coverage.y - Coverage.x,
+    .groups = "drop"
+  )
+
+# Average the quadrat-level changes within each plot. The plot is the
+# experimental unit, while the ten quadrats are subsamples.
+Plot_Change_Abundance <- Change_Abundance %>%
+  group_by(Block, Plot, Treatment, Species) %>%
+  summarise(
+    Change_abundance = mean(Change_abundance),
+    SD_within_plot = sd(Change_abundance),
+    Number_of_Quadrats = n_distinct(Quadrat_ID_Numeric),
+    .groups = "drop"
+  )
+
+# Confirm that each plot-species mean is based on all ten quadrats.
+incomplete_plot_species <- Plot_Change_Abundance %>%
+  filter(Number_of_Quadrats != 10)
+
+if (nrow(incomplete_plot_species) > 0) {
+  write.csv(
+    incomplete_plot_species,
+    "Tables/Incomplete_Plot_Species_Change.csv",
+    row.names = FALSE
+  )
+  stop(
+    "One or more plot-species combinations do not contain 10 matched quadrats. ",
+    "See Tables/Incomplete_Plot_Species_Change.csv."
+  )
+}
 
 ##################################  COVER CAHNGES ##############################
 BG = 
-  Change_Abundance[which(Change_Abundance$Species == "Bare Ground"),]
+  Plot_Change_Abundance[which(Plot_Change_Abundance$Species == "Bare Ground"),]
 BG<-as.data.frame(BG)
 BG$Treatment<-factor(BG$Treatment)
 
@@ -495,7 +601,7 @@ tmp
 
 ##################################  COVER CAHNGES ##############################
 PN = 
-  Change_Abundance[which(Change_Abundance$Species == "Paspalum notatum"),]
+  Plot_Change_Abundance[which(Plot_Change_Abundance$Species == "Paspalum notatum"),]
 PN<-as.data.frame(PN)
 PN$Treatment<-factor(PN$Treatment)
 
@@ -564,7 +670,7 @@ Jan_PN_Change_Box
 
 ##################################  COVER CAHNGES ##############################
 OL = 
-  Change_Abundance[which(Change_Abundance$Species == "Oenothera laciniata"),]
+  Plot_Change_Abundance[which(Plot_Change_Abundance$Species == "Oenothera laciniata"),]
 OL<-as.data.frame(OL)
 OL$Treatment<-factor(OL$Treatment)
 

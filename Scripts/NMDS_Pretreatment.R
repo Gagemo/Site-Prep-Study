@@ -8,21 +8,17 @@
 ################################################################################
 ################################################################################
 
-######################### Clears Environment & History  ########################
 rm(list=ls(all=TRUE))
-cat("\014") 
+cat("\014")
 
-#########################     Installs Packages   ##############################
-list.of.packages <- c("tidyverse", "vegan", "agricolae", "extrafont", 
-                      "ggrepel","ggsignif", "multcompView", "ggpubr", 
-                      "rstatix", 'rmarkdown', "labdsv", "pairwiseAdonis", 
-                      "devtools", "knitr", "tables", "openxlsx", "labdsv", 
-                      'ggrepel')
-new.packages <- list.of.packages[!(list.of.packages %in% 
+list.of.packages <- c("tidyverse", "vegan", "agricolae", "extrafont",
+                      "ggrepel", "ggsignif", "multcompView", "ggpubr",
+                      "rstatix", "rmarkdown", "labdsv", "pairwiseAdonis",
+                      "devtools", "knitr", "tables", "openxlsx")
+new.packages <- list.of.packages[!(list.of.packages %in%
                                      installed.packages()[,"Package"])]
 if(length(new.packages)) install.packages(new.packages)
 
-##########################     Loads Packages     ##############################
 library(extrafont)
 #font_import()
 loadfonts(device = "win")
@@ -36,49 +32,47 @@ library(ggpubr)
 library(rstatix)
 library(ggrepel)
 options(ggrepel.max.overlaps = Inf)
-library(vegan)
 library(labdsv)
 library(devtools)
 library(knitr)
 library(tables)
 library(openxlsx)
-library(labdsv)
-library(ggrepel)
 
-install_github("pmartinezarbizu/pairwiseAdonis/pairwiseAdonis")
+if (!requireNamespace("pairwiseAdonis", quietly = TRUE)) {
+  devtools::install_github("pmartinezarbizu/pairwiseAdonis/pairwiseAdonis")
+}
 library(pairwiseAdonis)
 
-# Load necessary libraries
-library(tidyverse)
-library(labdsv) # Ensure labdsv is loaded for matrify
+Data = read.csv("Data/Pretreatment Data.csv", stringsAsFactors = FALSE)
 
-########################## Read in Data ########################################
-Data = read.csv("Data/Pretreatment Data.csv")
-
-################################################################################
 ################################################################################
 ################################### June  ######################################
 ################################################################################
-################################################################################
 
-# Filter out blank and "NA" entries in Coverage
+# Blanks and NA-style entries represent absence and are converted to zero
 df_cleaned <- Data %>%
-  filter(Coverage != "", Coverage != "NA")
+  mutate(
+    Coverage = trimws(as.character(Coverage)),
+    Coverage = case_when(
+      is.na(Coverage) ~ "0",
+      Coverage == "" ~ "0",
+      toupper(Coverage) %in% c("NA", "N/A", ".") ~ "0",
+      TRUE ~ Coverage
+    ),
+    Coverage = suppressWarnings(as.numeric(Coverage))
+  )
 
-# Create the unique ID, now including 'Month'
-df_cleaned <- df_cleaned %>% mutate(Unique_ID = paste(Block, 
-                                       Plot, Quadrat, sep = '-'))
+if (any(is.na(df_cleaned$Coverage))) {
+  stop("Some Coverage values could not be converted to numeric.")
+}
 
-# Convert Coverage to numeric.
-df_cleaned$Coverage <- as.numeric(df_cleaned$Coverage)
-
-# Remove any NAs introduced by the above numeric coercion.
-df_cleaned <- df_cleaned %>% drop_na(Coverage)
-
-# Reclassify coverage data (CV) from 1-10 scale to percent scale
-# Explicitly ensure the output of case_when is numeric
+# Create the quadrat-level unique ID
 df_cleaned <- df_cleaned %>%
-  mutate(Coverage = as.numeric(case_when(
+  mutate(Unique_ID = paste(Block, Plot, Quadrat, sep = '-'))
+
+# Reclassify coverage data from 1-10 scale to percent cover
+df_cleaned <- df_cleaned %>%
+  mutate(Coverage = case_when(
     Coverage == 10 ~ 97.5,
     Coverage == 1 ~ 0.1,
     Coverage == 2 ~ 0.5,
@@ -90,77 +84,115 @@ df_cleaned <- df_cleaned %>%
     Coverage == 8 ~ 62.5,
     Coverage == 9 ~ 85,
     Coverage == 0 ~ 0,
-    TRUE ~ Coverage)))
+    TRUE ~ NA_real_
+  ))
 
-# Convert Treatment to a factor with specified levels
-df_cleaned$Treatment = factor(df_cleaned$Treatment,
-                              levels=c('Control', 'Fill', 
-                                       'Preemergent','Soil Inversion'))
+if (any(is.na(df_cleaned$Coverage))) {
+  stop("Coverage values outside the expected 0-10 scale were found.")
+}
 
-# Create species pivot table
-df_for_matrify <- df_cleaned %>%
-  dplyr::select(Unique_ID, Species, Coverage) %>%
-  mutate(Coverage = as.numeric(Coverage))
+if (any(is.na(df_cleaned$Treatment))) {
+  stop("Treatment names do not match the expected factor levels.")
+}
 
-# Convert the tibble to a base R data.frame before calling matrify()
-df_for_matrify_base <- as.data.frame(df_for_matrify)
+################################################################################
+######################## Average Quadrats Within Plots ##########################
+################################################################################
 
-# Now, matrify() should work correctly with the standard data.frame
-Spp = matrify(df_for_matrify_base)
+# Treatment was applied at the plot level, so quadrats are subsamples.
+# First complete absent species as zero, then average the ten quadrats per plot.
+Plot_Long <- df_cleaned %>%
+  group_by(Block, Plot, Quadrat, Treatment, Species) %>%
+  summarise(Coverage = sum(Coverage, na.rm = TRUE), .groups = "drop") %>%
+  complete(
+    nesting(Block, Plot, Quadrat, Treatment),
+    Species,
+    fill = list(Coverage = 0)
+  ) %>%
+  group_by(Block, Plot, Treatment, Species) %>%
+  summarise(
+    Coverage = mean(Coverage, na.rm = TRUE),
+    Number_of_Quadrats = n_distinct(Quadrat),
+    .groups = "drop"
+  )
+
+if (any(Plot_Long$Number_of_Quadrats != 10)) {
+  dir.create("Tables", showWarnings = FALSE, recursive = TRUE)
+  write.csv(
+    Plot_Long %>% filter(Number_of_Quadrats != 10),
+    "Tables/Pretreatment_Incomplete_Plot_Species.csv",
+    row.names = FALSE
+  )
+  stop("One or more plot-species combinations do not contain ten quadrats.")
+}
+
+# Create one row per plot and one column per species
+Plot_Wide <- Plot_Long %>%
+  dplyr::select(Block, Plot, Treatment, Species, Coverage) %>%
+  pivot_wider(
+    names_from = Species,
+    values_from = Coverage,
+    values_fill = 0
+  ) %>%
+  arrange(Treatment, Block, Plot) %>%
+  mutate(Unique_ID = paste(Block, Plot, sep = '-'))
+
+Treat <- Plot_Wide %>%
+  dplyr::select(Unique_ID, Block, Plot, Treatment)
+
+Spp <- Plot_Wide %>%
+  dplyr::select(-Unique_ID, -Block, -Plot, -Treatment) %>%
+  as.data.frame()
+
+rownames(Spp) <- Treat$Unique_ID
+
+# Remove species absent from every plot
+Spp <- Spp[, colSums(Spp, na.rm = TRUE) > 0, drop = FALSE]
+
+if (any(rowSums(Spp, na.rm = TRUE) == 0)) {
+  stop("At least one plot has zero total vegetation cover.")
+}
 
 Veg_Spp = vegdist(Spp, method = 'bray')
 
-# Create grouped treatment/environment table and summaries to fit species table#
-Treat = group_by(df_cleaned, Unique_ID, Month, Block, Plot, Treatment) %>% 
-  dplyr::summarize()
+################################################################################
+############################ NMDS Analysis ######################################
+################################################################################
 
-# Use dissimilarities to create scree plot - attain the number of dimensions #
-# for NMDS with least stress. Using function that produces a # 
-# stress vs. dimensional plot #
-
-NMDS.scree <- function(x) { # x is the name of the data frame variable
-  plot(rep(1, 10), replicate(10, metaMDS(x, autotransform = F, k = 1)$stress), 
-       xlim = c(1, 10),ylim = c(0, 0.30), xlab = "# of Dimensions", 
+NMDS.scree <- function(x) {
+  plot(rep(1, 10), replicate(10, metaMDS(x, autotransform = FALSE, k = 1)$stress),
+       xlim = c(1, 10), ylim = c(0, 0.30), xlab = "# of Dimensions",
        ylab = "Stress", main = "NMDS Stress Plot")
   for (i in 1:10) {
     points(rep(i + 1,10),
-           replicate(10, metaMDS(x, autotransform = F, k = i + 1)$stress))
+           replicate(10, metaMDS(x, autotransform = FALSE, k = i + 1)$stress))
   }
 }
 
-#NMDS.scree(Spp) 
-# --> Based on scree plot three dimensions will be sufficient for NMDS #
+#NMDS.scree(Spp)
 
-# MDS and plot stress using a Shepherd Plot #
-MDS = metaMDS(Veg_Spp, distance = 'bray', k=3)
+set.seed(123)
+MDS = metaMDS(Spp, distance = 'bray', k=3, trymax = 200,
+              autotransform = FALSE, trace = FALSE)
 MDS$stress
-stressplot(MDS) 
+stressplot(MDS)
 goodness(MDS)
-# --> Shepherd plots showcase a not perfect, but acceptable R^2 value #
 
-# Extract  species scores & convert to a data.frame for NMDS graph #
 species.scores <- as.data.frame(wascores(MDS$points, Spp))
-
-# create a column of species, from the row names of species.scores  #                                                            )  
 species.scores$species <- rownames(species.scores)
 
-# Turn MDS points into a dataframe with treatment data for use in ggplot #
-NMDS = data.frame(MDS = MDS$points, Treatment = Treat$Treatment, 
-                  Block = Treat$Block, Plot = Treat$Plot, Unique_ID = Treat$Unique_ID)
+NMDS = data.frame(MDS = MDS$points, Treatment = Treat$Treatment,
+                  Block = Treat$Block, Plot = Treat$Plot,
+                  Unique_ID = Treat$Unique_ID)
 
 ################################################################################
-#############################NMDS Graphs########################################
+############################# NMDS Graph ########################################
 ################################################################################
 
-# NMDS Graphs
 NMDS_graph = ggplot() +
   geom_point(data = NMDS, aes(x = MDS.MDS1, y = MDS.MDS2,
                               fill = Treatment, shape = Treatment),
              alpha = 0.7, size = 5) +
- # geom_text_repel(data = NMDS, aes(x = MDS.MDS1, y = MDS.MDS2, label = Unique_ID),
-  #                size = 3) + # Replace geom_text with geom_text_repel
- # geom_text_repel(data = species.scores, aes(x = MDS1, y = MDS2, label = species),
- #                 size = 3) + # Replace geom_text with geom_text_repel
   scale_color_manual(labels=c('Control', 'Fill Sand', 'Preemergent','Soil Inversion'),
                      values=c("yellow", "orange", "#66CC00", "#CC66CC")) +
   scale_fill_manual(labels=c('Control', 'Fill Sand', 'Preemergent','Soil Inversion'),
@@ -181,56 +213,88 @@ NMDS_graph = ggplot() +
         legend.title=element_text(size=25, face = "bold", color = "black"),
         legend.position="bottom") +
   guides(shape = guide_legend(nrow = 1)) +
-  labs(x = "MDS1", y = "MDS2", color = "Treatment", fill = "Treatment")
+  annotate(
+    "text",
+    x = -Inf,
+    y = Inf,
+    label = paste0("Stress: ", round(MDS$stress, 3)),
+    hjust = -0.7,
+    vjust = 1.3,
+    size = 6,
+    fontface = "bold"
+  ) +
+  labs(x = "MDS1", y = "MDS2", color = "Treatment",
+       fill = "Treatment", shape = "Treatment")
 NMDS_graph
 
-ggsave("Figures/pretreat_NMDS_graph.tiff", dpi = 100)
+dir.create("Figures", showWarnings = FALSE, recursive = TRUE)
+ggsave("Figures/pretreat_NMDS_graph.tiff", plot = NMDS_graph,
+       dpi = 300, width = 8, height = 6, compression = "lzw")
 
-# Perform adonis to test the significance of treatments#
-adon.results <- adonis2(Veg_Spp ~ Treatment, data = NMDS, method="bray")
+################################################################################
+############################ PERMANOVA ##########################################
+################################################################################
+
+# Plot-level PERMANOVA; block is included because the experiment was blocked
+set.seed(123)
+adon.results <- adonis2(
+  Spp ~ Block + Treatment,
+  data = Treat,
+  method = "bray",
+  permutations = 9999,
+  by = "terms"
+)
 print(adon.results)
-write.csv.tabular(adon.results, "Tables/Pretreat_adonis.csv")
-pairwise.adonis <-pairwise.adonis2(Veg_Spp ~ Treatment, data = NMDS)
+
+dir.create("Tables", showWarnings = FALSE, recursive = TRUE)
+write.csv(as.data.frame(adon.results),
+          "Tables/Pretreat_adonis.csv", row.names = TRUE)
+
+################################################################################
+######################## Multivariate Dispersion ###############################
+################################################################################
+
+dispersion_model <- betadisper(Veg_Spp, Treat$Treatment, type = "centroid")
+set.seed(123)
+dispersion_results <- permutest(dispersion_model, permutations = 9999)
+print(dispersion_results)
+
+write.csv(as.data.frame(dispersion_results$tab),
+          "Tables/Pretreat_dispersion.csv", row.names = TRUE)
+
+################################################################################
+######################## Pairwise PERMANOVA ####################################
+################################################################################
+
+# Retained for consistency, but do not interpret these if the overall
+# pretreatment Treatment effect is nonsignificant.
+pairwise.adonis <- pairwise.adonis2(
+  Spp ~ Treatment,
+  data = Treat,
+  permutations = 9999
+)
 pairwise.adonis
 
-#save tables
-# Create a new workbook
 wb <- createWorkbook()
-
-# Add a worksheet
 addWorksheet(wb, "All_Tables")
-
-# Initialize starting row
 start_row <- 1
 
-# Loop through the list of tables and add each to the same sheet
 for (name in names(pairwise.adonis)) {
-  # Add table name as a header
-  writeData(wb, sheet = "All_Tables", x = name, 
+  writeData(wb, sheet = "All_Tables", x = name,
             startRow = start_row, colNames = FALSE)
-  
-  # Increment the starting row to leave a gap between the header and the table
   start_row <- start_row + 1
   
-  # Check if the element is a data frame or a character string
   if (is.data.frame(pairwise.adonis[[name]])) {
-    # Write the table
-    writeData(wb, sheet = "All_Tables", 
+    writeData(wb, sheet = "All_Tables",
               x = pairwise.adonis[[name]], startRow = start_row)
-    
-    # Increment the starting row for the next table, adding a few extra rows for spacing
     start_row <- start_row + nrow(pairwise.adonis[[name]]) + 2
   } else if (is.character(pairwise.adonis[[name]])) {
-    # Write the character string
-    writeData(wb, sheet = "All_Tables", 
-              x = pairwise.adonis[[name]], 
+    writeData(wb, sheet = "All_Tables",
+              x = pairwise.adonis[[name]],
               startRow = start_row, colNames = FALSE)
-    
-    # Increment the starting row for the next table, adding a few extra rows for spacing
     start_row <- start_row + 2
   }
 }
 
-# Save the workbook to an Excel file
-saveWorkbook(wb, "Tables/Pretreat_pairwise_adonis_same_sheet.xlsx", 
+saveWorkbook(wb, "Tables/Pretreat_pairwise_adonis_same_sheet.xlsx",
              overwrite = TRUE)

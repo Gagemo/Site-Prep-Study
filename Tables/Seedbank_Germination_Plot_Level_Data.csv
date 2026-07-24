@@ -1,0 +1,49 @@
+"Month","Block","Plot","Treatment","MeanGermination","Number_of_Samples"
+"Pre-Treatment",1,1,"Soil Inversion",104,4
+"Pre-Treatment",1,2,"Control",131.5,4
+"Pre-Treatment",1,3,"Soil Inversion",157.75,4
+"Pre-Treatment",1,4,"Control",151.5,4
+"Pre-Treatment",1,5,"Preemergent",127.75,4
+"Pre-Treatment",1,6,"Fill Sand",150.5,4
+"Pre-Treatment",1,7,"Fill Sand",151.75,4
+"Pre-Treatment",1,8,"Fill Sand",137.25,4
+"Pre-Treatment",1,9,"Control",114.5,4
+"Pre-Treatment",1,10,"Preemergent",121.25,4
+"Pre-Treatment",1,11,"Soil Inversion",146.75,4
+"Pre-Treatment",1,12,"Preemergent",156.25,4
+"Pre-Treatment",2,1,"Soil Inversion",185.5,4
+"Pre-Treatment",2,2,"Control",147.25,4
+"Pre-Treatment",2,3,"Soil Inversion",138.25,4
+"Pre-Treatment",2,4,"Preemergent",129.5,4
+"Pre-Treatment",2,5,"Preemergent",138.5,4
+"Pre-Treatment",2,6,"Fill Sand",141.25,4
+"Pre-Treatment",2,7,"Control",137.25,4
+"Pre-Treatment",2,8,"Fill Sand",163.75,4
+"Pre-Treatment",2,9,"Control",165,4
+"Pre-Treatment",2,10,"Fill Sand",148.75,4
+"Pre-Treatment",2,11,"Soil Inversion",133.5,4
+"Pre-Treatment",2,12,"Preemergent",138.25,4
+"Post-Treatment",1,1,"Soil Inversion",39.75,4
+"Post-Treatment",1,2,"Control",127.25,4
+"Post-Treatment",1,3,"Soil Inversion",49,4
+"Post-Treatment",1,4,"Control",140.75,4
+"Post-Treatment",1,5,"Preemergent",138.25,4
+"Post-Treatment",1,6,"Fill Sand",60.25,4
+"Post-Treatment",1,7,"Fill Sand",61.5,4
+"Post-Treatment",1,8,"Fill Sand",49,4
+"Post-Treatment",1,9,"Control",145,4
+"Post-Treatment",1,10,"Preemergent",162.25,4
+"Post-Treatment",1,11,"Soil Inversion",60.75,4
+"Post-Treatment",1,12,"Preemergent",146,4
+"Post-Treatment",2,1,"Soil Inversion",56.5,4
+"Post-Treatment",2,2,"Control",187.25,4
+"Post-Treatment",2,3,"Soil Inversion",49.5,4
+"Post-Treatment",2,4,"Preemergent",165.5,4
+"Post-Treatment",2,5,"Preemergent",151.25,4
+"Post-Treatment",2,6,"Fill Sand",62.25,4
+"Post-Treatment",2,7,"Control",151.25,4
+"Post-Treatment",2,8,"Fill Sand",41.75,4
+"Post-Treatment",2,9,"Control",121.75,4
+"Post-Treatment",2,10,"Fill Sand",54.75,4
+"Post-Treatment",2,11,"Soil Inversion",51.25,4
+"Post-Treatment",2,12,"Preemergent",167,4

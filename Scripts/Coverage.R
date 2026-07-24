@@ -56,17 +56,37 @@ df_long <- Data %>%
   # Create the unique ID, now including 'Month'
   mutate(Unique_ID = paste(Block, Plot, Quadrat_ID_Numeric, sep = '-'))
 
-# Filter out *only* blank entries (empty strings) in Coverage
-# We will handle "NA" and other NA values by converting them to 0
+# Preserve every quadrat record. Blank, NA, N/A, and "." values are treated
+# as zero cover because they represent surveyed quadrats where the species
+# or cover category was absent.
 df_cleaned <- df_long %>%
-  filter(Coverage != "")
+  mutate(
+    Coverage = trimws(as.character(Coverage)),
+    Coverage = case_when(
+      is.na(Coverage) ~ "0",
+      Coverage == "" ~ "0",
+      toupper(Coverage) %in% c("NA", "N/A", ".") ~ "0",
+      TRUE ~ Coverage
+    ),
+    Coverage = suppressWarnings(as.numeric(Coverage))
+  )
 
-# Convert Coverage to numeric. This will turn any non-numeric strings (including "NA" if still present) into actual R `NA` values.
-df_cleaned$Coverage <- as.numeric(df_cleaned$Coverage)
-
-# Replace all NA values in Coverage with 0
-df_cleaned <- df_cleaned %>%
-  mutate(Coverage = replace_na(Coverage, 0))
+# Stop if an unrecognized nonnumeric cover value remains.
+if (any(is.na(df_cleaned$Coverage))) {
+  invalid_coverage <- df_cleaned %>%
+    filter(is.na(Coverage))
+  
+  write.csv(
+    invalid_coverage,
+    "Tables/Invalid_Coverage_Values_Cover_Analysis.csv",
+    row.names = FALSE
+  )
+  
+  stop(
+    "One or more coverage values could not be converted to numeric values. ",
+    "See Tables/Invalid_Coverage_Values_Cover_Analysis.csv."
+  )
+}
 
 # Reclassify coverage data (CV) from 1-10 scale to percent scale
 # Explicitly ensure the output of case_when is numeric
@@ -91,10 +111,95 @@ df_cleaned$Treatment = factor(df_cleaned$Treatment,
                                        'Preemergent','Soil Inversion'))
 
 #################### Species abundances ########################################
-# Creates and joins  data month to make long data format #
-November <- filter(df_cleaned, Month == "November")
-Jan <- filter(df_cleaned, Month == "Jan")
-April <- filter(df_cleaned, Month == "April")
+# Average the ten quadrats within each plot before treatment comparisons.
+# The plot is the experimental unit; quadrats are subsamples.
+average_cover_to_plot <- function(data_month, survey_label, expected_quadrats = 10) {
+  
+  # Check for duplicate records of the same species in the same quadrat.
+  duplicate_check <- data_month %>%
+    count(
+      Block, Plot, Treatment, Species, Quadrat_ID,
+      name = "Number_of_Records"
+    ) %>%
+    filter(Number_of_Records > 1)
+  
+  if (nrow(duplicate_check) > 0) {
+    duplicate_file <- file.path(
+      "Tables",
+      paste0(
+        "Duplicate_Coverage_Records_",
+        gsub("[^A-Za-z0-9]+", "_", survey_label),
+        ".csv"
+      )
+    )
+    
+    write.csv(duplicate_check, duplicate_file, row.names = FALSE)
+    
+    stop(
+      survey_label,
+      " contains duplicate species records within one or more quadrats. ",
+      "See ", duplicate_file, "."
+    )
+  }
+  
+  # Confirm that each plot-species combination contains all ten quadrats.
+  quadrat_check <- data_month %>%
+    group_by(Block, Plot, Treatment, Species) %>%
+    summarise(
+      Number_of_Quadrats = n_distinct(Quadrat_ID_Numeric),
+      Number_of_Values = n(),
+      .groups = "drop"
+    )
+  
+  incomplete_groups <- quadrat_check %>%
+    filter(
+      Number_of_Quadrats != expected_quadrats |
+        Number_of_Values != expected_quadrats
+    )
+  
+  if (nrow(incomplete_groups) > 0) {
+    incomplete_file <- file.path(
+      "Tables",
+      paste0(
+        "Incomplete_Plot_Species_Coverage_",
+        gsub("[^A-Za-z0-9]+", "_", survey_label),
+        ".csv"
+      )
+    )
+    
+    write.csv(incomplete_groups, incomplete_file, row.names = FALSE)
+    
+    stop(
+      survey_label,
+      " contains plot-species combinations without exactly ",
+      expected_quadrats,
+      " quadrat values. See ", incomplete_file, "."
+    )
+  }
+  
+  # Calculate one mean cover value per species per plot.
+  data_month %>%
+    group_by(Month, Block, Plot, Treatment, Species) %>%
+    summarise(
+      Coverage = mean(Coverage),
+      SD_within_plot = sd(Coverage),
+      Number_of_Quadrats = n_distinct(Quadrat_ID_Numeric),
+      .groups = "drop"
+    )
+}
+
+# Create plot-level datasets for each survey period.
+November <- df_cleaned %>%
+  filter(Month == "November") %>%
+  average_cover_to_plot(survey_label = "1-month")
+
+Jan <- df_cleaned %>%
+  filter(Month == "Jan") %>%
+  average_cover_to_plot(survey_label = "3-month")
+
+April <- df_cleaned %>%
+  filter(Month == "April") %>%
+  average_cover_to_plot(survey_label = "6-month")
 
 ##################################  November ###################################
 BG = filter(November, Species == "Bare Ground")
@@ -837,4 +942,3 @@ Coverage = ggarrange(Jan_OL_Box, April_OL_Box,
                      nrow = 3, ncol = 2)
 Coverage
 ggsave("Figures/Coverage.tiff", dpi = 100, width = 14, height = 12)
-

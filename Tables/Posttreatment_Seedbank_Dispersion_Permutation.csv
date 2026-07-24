@@ -1,0 +1,3 @@
+"Survey","Term","Df","Sum Sq","Mean Sq","F","N.Perm","Pr(>F)"
+"Post-Treatment","Groups",3,0.0230661541900758,0.0076887180633586,8.1181902439851,9999,0.0013
+"Post-Treatment","Residuals",20,0.0189419509331043,0.000947097546655216,NA,NA,NA

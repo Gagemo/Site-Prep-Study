@@ -1,0 +1,7 @@
+"Survey","Comparison","Treatment_Df","Residual_Df","Total_Df","SumOfSqs","R2","F","P_Value","Holm_Adjusted_P"
+"Post-Treatment","Control vs Fill Sand",1,10,11,0.537991614026899,0.600306382846787,15.0191636064249,0.0027,0.0162
+"Post-Treatment","Control vs Preemergent",1,10,11,0.0339600538824667,0.134921447624198,1.5596438872939,0.0996,0.0996
+"Post-Treatment","Control vs Soil Inversion",1,10,11,0.706059338373741,0.681059248987041,21.3537858308789,0.0027,0.0162
+"Post-Treatment","Fill Sand vs Preemergent",1,10,11,0.636247264583161,0.706835508826508,24.1105430605581,0.0027,0.0162
+"Post-Treatment","Fill Sand vs Soil Inversion",1,10,11,0.736120582894698,0.661435211981597,19.5364442904099,0.0027,0.0162
+"Post-Treatment","Preemergent vs Soil Inversion",1,10,11,0.896669700092168,0.791410416892603,37.9410325819159,0.0027,0.0162

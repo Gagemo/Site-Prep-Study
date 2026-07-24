@@ -1,0 +1,4 @@
+"Survey","Term","Df","SumOfSqs","R2","F","Pr(>F)"
+"Post-Treatment","Treatment",3,1.77352427692657,0.74893547969153,19.8869326171974,1e-04
+"Post-Treatment","Residual",20,0.594535889827775,0.25106452030847,NA,NA
+"Post-Treatment","Total",23,2.36806016675434,1,NA,NA
