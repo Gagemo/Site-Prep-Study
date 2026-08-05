@@ -312,7 +312,7 @@ analyze_germination <- function(
     ) +
     geom_jitter(
       color = "black",
-      size = 3,
+      size = 4,
       alpha = 0.7,
       width = 0.2,
       show.legend = FALSE
@@ -321,13 +321,13 @@ analyze_germination <- function(
       data = tukey_cld,
       aes(
         x = Treatment,
-        y = max_y + 8,
+        y = max_y + 10,
         label = label
       ),
       inherit.aes = FALSE,
       vjust = 0,
       hjust = 0.5,
-      size = 8,
+      size = 10,
       fontface = "bold"
     ) +
     scale_fill_manual(values = treat_colors) +
@@ -352,29 +352,29 @@ analyze_germination <- function(
         hjust = 0.5,
         colour = "black"
       ),
-      text = element_text(size = 20),
+      text = element_text(size = 25),
       axis.title.x = element_text(
-        size = 20,
+        size = 25,
         face = "bold",
         colour = "black"
       ),
       axis.title.y = element_text(
-        size = 20,
+        size = 25,
         face = "bold",
         colour = "black"
       ),
       axis.text.x = element_text(
-        size = 20,
+        size = 25,
         face = "bold",
         color = "black"
       ),
       axis.text.y = element_text(
-        size = 20,
+        size = 25,
         face = "bold",
         color = "black"
       ),
       legend.text = element_text(
-        size = 20,
+        size = 25,
         face = "bold",
         color = "black"
       ),
@@ -455,13 +455,13 @@ seedbank_germ_count <- ggarrange(
   ncol = 2,
   common.legend = TRUE,
   legend = "bottom",
-  labels = c("A", "B")
+  labels = c("", "")
 )
 
 final_figure <- annotate_figure(
   seedbank_germ_count,
   bottom = text_grob(
-    "Letters indicate Tukey-adjusted pairwise comparisons.",
+    "",
     size = 15
   )
 )
@@ -473,7 +473,7 @@ ggsave(
   "Figures/seedbank_germ_count.tiff",
   plot = final_figure,
   dpi = 300,
-  width = 18,
+  width = 22,
   height = 8,
   units = "in",
   compression = "lzw"

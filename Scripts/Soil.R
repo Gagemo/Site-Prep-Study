@@ -242,12 +242,12 @@ plot_soil_prop <- function(df, prop) {
     ) +
     geom_point(
       color = "black",
-      size = 2.5,
+      size = 2,
       alpha = 0.75,
       position = position_jitterdodge(
         jitter.width = 0.12,
-        dodge.width = 0.8
-      )
+        dodge.width = 0.8,
+      ), show.legend = FALSE
     ) +
     geom_text(
       data = label_data,
@@ -282,28 +282,36 @@ plot_soil_prop <- function(df, prop) {
         face = "bold",
         colour = "black"
       ),
-      text = element_text(size = 16),
+      text = element_text(size = 20),
       axis.title.x = element_text(
-        size = 15,
+        size = 20,
         face = "bold",
         colour = "black"
       ),
       axis.title.y = element_text(
-        size = 15,
+        size = 20,
         face = "bold",
         colour = "black"
       ),
       axis.text.x = element_text(
-        size = 13,
+        size = 18,
         face = "bold",
         color = "black"
       ),
       axis.text.y = element_text(
-        size = 13,
+        size = 18,
         face = "bold",
         color = "black"
       ),
-      legend.position = "bottom"
+      legend.position = "bottom",
+      legend.title = element_text(
+        size = 20,
+        face = "bold"
+      ),
+      legend.text = element_text(
+        size = 20,
+        face = "bold"
+      )
     )
   
   ######################## Return Results #######################################
@@ -358,7 +366,7 @@ ggsave(
   "Figures/Soil_Properties_Panel_with_Letters.tiff",
   plot = soil_panel,
   width = 12,
-  height = 18,
+  height = 20,
   units = "in",
   dpi = 300,
   compression = "lzw"
